@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/dusan/Desktop/Projects/MonteCarlo/cmake-build-debug/MonteCarloTests[1]_tests.cmake")
+  include("C:/Users/dusan/Desktop/Projects/MonteCarlo/cmake-build-debug/MonteCarloTests[1]_tests.cmake")
+else()
+  add_test(MonteCarloTests_NOT_BUILT MonteCarloTests_NOT_BUILT)
+endif()

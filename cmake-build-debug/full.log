@@ -1,0 +1,643 @@
+[INFO ][2022/01/05 14:36:19:809][C:\Users\dusan\Desktop\Projects\MonteCarlo\main.cpp:18][14288] JEBEM TI MAJKU VISE TVOJU
+[INFO ][2022/01/05 14:36:32:978][C:\Users\dusan\Desktop\Projects\MonteCarlo\main.cpp:18][5360] JEBEM TI MAJKU VISE TVOJU
+[INFO ][2022/01/05 14:37:34:896][C:\Users\dusan\Desktop\Projects\MonteCarlo\main.cpp:18][14628] JEBEM TI MAJKU VISE TVOJU
+[INFO ][2022/01/05 14:37:49:488][C:\Users\dusan\Desktop\Projects\MonteCarlo\main.cpp:18][2732] JEBEM TI MAJKU VISE TVOJU
+[INFO ][2022/01/05 14:39:18:137][C:\Users\dusan\Desktop\Projects\MonteCarlo\main.cpp:18][14180] JEBEM TI MAJKU VISE TVOJU
+[INFO ][2022/01/05 14:47:04:848][C:\Users\dusan\Desktop\Projects\MonteCarlo\main.cpp:18][9196] JEBEM TI MAJKU VISE TVOJU
+[INFO ][2022/01/05 14:47:26:026][C:\Users\dusan\Desktop\Projects\MonteCarlo\main.cpp:18][1252] JEBEM TI MAJKU VISE TVOJU
+[INFO ][2022/01/05 14:47:46:152][C:\Users\dusan\Desktop\Projects\MonteCarlo\main.cpp:18][11816] JEBEM TI MAJKU VISE TVOJU
+[INFO][14:53:05:370][Main] Arguments parsed.
+Total number of photons: 10
+Number of photons in parallel: 1
+[INFO][14:53:22:165][Main] Arguments parsed.
+Total number of photons: 10
+Number of photons in parallel: 1
+[ERROR][14:53:42:607][Main] Not enough arguments provided. Use case: >MonteCarlo.exe totalNumOfPhotons numOfParallelPhotons
+[INFO][15:03:42:540][Main] Arguments parsed.
+Total number of photons: 10
+Number of photons in parallel: 1
+[INFO][15:03:42:545][PhotonGenerator] Thread released.
+[INFO][15:03:42:546][PhotonGenerator] Procedure entered.
+[INFO][15:03:42:547][Photon] Creating a new photon with id: 0.
+[INFO][15:03:42:546][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][15:03:42:550][Photon] Photon with id: 0 thread released.
+[INFO][15:03:42:551][Photon] Photon with id: 0 procedure entered.
+[INFO][15:03:42:551][Photon] Joining a photon with id: 0...
+[INFO][15:03:47:564][Photon] Joined a photon with id: 0.
+[INFO][15:03:47:566][Photon] Creating a new photon with id: 1.
+[INFO][15:03:47:571][Photon] Photon with id: 1 thread released.
+[INFO][15:03:47:571][Photon] Photon with id: 1 procedure entered.
+[INFO][15:03:47:573][Photon] Joining a photon with id: 1...
+[INFO][15:03:52:584][Photon] Joined a photon with id: 1.
+[INFO][15:03:52:588][Photon] Creating a new photon with id: 2.
+[INFO][15:03:52:598][Photon] Photon with id: 2 thread released.
+[INFO][15:03:52:598][Photon] Photon with id: 2 procedure entered.
+[INFO][15:03:52:604][Photon] Joining a photon with id: 2...
+[INFO][15:03:57:616][Photon] Joined a photon with id: 2.
+[INFO][15:03:57:619][Photon] Creating a new photon with id: 3.
+[INFO][15:03:57:625][Photon] Photon with id: 3 thread released.
+[INFO][15:03:57:628][Photon] Joining a photon with id: 3...
+[INFO][15:03:57:625][Photon] Photon with id: 3 procedure entered.
+[INFO][15:04:02:642][Photon] Joined a photon with id: 3.
+[INFO][15:04:02:646][Photon] Creating a new photon with id: 4.
+[INFO][15:04:02:654][Photon] Photon with id: 4 procedure entered.
+[INFO][15:04:02:654][Photon] Photon with id: 4 thread released.
+[INFO][15:04:02:663][Photon] Joining a photon with id: 4...
+[INFO][15:04:07:675][Photon] Joined a photon with id: 4.
+[INFO][15:04:07:678][Photon] Creating a new photon with id: 5.
+[INFO][15:04:07:686][Photon] Photon with id: 5 procedure entered.
+[INFO][15:04:07:686][Photon] Photon with id: 5 thread released.
+[INFO][15:04:07:694][Photon] Joining a photon with id: 5...
+[INFO][15:04:12:702][Photon] Joined a photon with id: 5.
+[INFO][15:04:12:707][Photon] Creating a new photon with id: 6.
+[INFO][15:04:12:715][Photon] Photon with id: 6 thread released.
+[INFO][15:04:12:715][Photon] Photon with id: 6 procedure entered.
+[INFO][15:04:12:719][Photon] Joining a photon with id: 6...
+[INFO][15:04:17:735][Photon] Joined a photon with id: 6.
+[INFO][15:04:17:737][Photon] Creating a new photon with id: 7.
+[INFO][15:04:17:744][Photon] Photon with id: 7 procedure entered.
+[INFO][15:04:17:744][Photon] Photon with id: 7 thread released.
+[INFO][15:04:17:751][Photon] Joining a photon with id: 7...
+[INFO][15:04:22:761][Photon] Joined a photon with id: 7.
+[INFO][15:04:22:763][Photon] Creating a new photon with id: 8.
+[INFO][15:04:22:769][Photon] Photon with id: 8 thread released.
+[INFO][15:04:22:770][Photon] Joining a photon with id: 8...
+[INFO][15:04:22:769][Photon] Photon with id: 8 procedure entered.
+[INFO][15:04:27:783][Photon] Joined a photon with id: 8.
+[INFO][15:04:27:786][Photon] Creating a new photon with id: 9.
+[INFO][15:04:27:793][Photon] Photon with id: 9 procedure entered.
+[INFO][15:04:27:793][Photon] Photon with id: 9 thread released.
+[INFO][15:04:27:802][Photon] Joining a photon with id: 9...
+[INFO][15:04:32:802][Photon] Joined a photon with id: 9.
+[INFO][15:04:32:807][Photon] Creating a new photon with id: 10.
+[INFO][15:04:32:815][Photon] Photon with id: 10 procedure entered.
+[INFO][15:04:32:815][Photon] Photon with id: 10 thread released.
+[INFO][15:04:32:822][Photon] Joining a photon with id: 10...
+[INFO][15:04:37:829][Photon] Joined a photon with id: 10.
+[INFO][15:04:37:833][Photon] Creating a new photon with id: 11.
+[INFO][15:04:37:839][Photon] Photon with id: 11 procedure entered.
+[INFO][15:04:37:839][Photon] Photon with id: 11 thread released.
+[INFO][15:04:37:846][Photon] Joining a photon with id: 11...
+[INFO][15:04:42:856][Photon] Joined a photon with id: 11.
+[INFO][15:04:42:860][Photon] Creating a new photon with id: 12.
+[INFO][15:04:42:868][Photon] Photon with id: 12 procedure entered.
+[INFO][15:04:42:868][Photon] Photon with id: 12 thread released.
+[INFO][15:04:42:881][Photon] Joining a photon with id: 12...
+[INFO][15:04:47:890][Photon] Joined a photon with id: 12.
+[INFO][15:04:47:894][Photon] Creating a new photon with id: 13.
+[INFO][15:04:47:902][Photon] Photon with id: 13 procedure entered.
+[INFO][15:04:47:902][Photon] Photon with id: 13 thread released.
+[INFO][15:04:47:910][Photon] Joining a photon with id: 13...
+[INFO][15:04:52:913][Photon] Joined a photon with id: 13.
+[INFO][15:04:52:917][Photon] Creating a new photon with id: 14.
+[INFO][15:04:52:924][Photon] Photon with id: 14 thread released.
+[INFO][15:04:52:924][Photon] Photon with id: 14 procedure entered.
+[INFO][15:04:52:928][Photon] Joining a photon with id: 14...
+[INFO][15:04:57:949][Photon] Joined a photon with id: 14.
+[INFO][15:04:57:955][Photon] Creating a new photon with id: 15.
+[INFO][15:04:57:964][Photon] Photon with id: 15 procedure entered.
+[INFO][15:04:57:964][Photon] Photon with id: 15 thread released.
+[INFO][15:04:57:970][Photon] Joining a photon with id: 15...
+[INFO][15:07:31:784][Main] Arguments parsed.
+[INFO][15:07:31:786][Main] Total number of photons: 10
+[INFO][15:07:31:787][Main] Number of photons in parallel: 1
+[INFO][15:07:31:789][PhotonGenerator] Thread released.
+[INFO][15:07:31:789][PhotonGenerator] Procedure entered.
+[INFO][15:07:31:789][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][15:07:31:790][Photon] Creating a new photon with id: 0.
+[INFO][15:07:31:793][Photon] Photon with id: 0 thread released.
+[INFO][15:07:31:794][Photon] Joining a photon with id: 0...
+[INFO][15:07:31:793][Photon] Photon with id: 0 procedure entered.
+[INFO][15:07:36:804][Photon] Joined a photon with id: 0.
+[INFO][15:07:36:808][Photon] Creating a new photon with id: 1.
+[INFO][15:07:36:813][Photon] Photon with id: 1 thread released.
+[INFO][15:07:36:813][Photon] Photon with id: 1 procedure entered.
+[INFO][15:07:36:816][Photon] Joining a photon with id: 1...
+[INFO][15:07:41:838][Photon] Joined a photon with id: 1.
+[INFO][15:07:41:841][Photon] Creating a new photon with id: 2.
+[INFO][15:07:41:848][Photon] Photon with id: 2 procedure entered.
+[INFO][15:07:41:848][Photon] Photon with id: 2 thread released.
+[INFO][15:07:41:855][Photon] Joining a photon with id: 2...
+[INFO][15:07:46:858][Photon] Joined a photon with id: 2.
+[INFO][15:07:46:861][Photon] Creating a new photon with id: 3.
+[INFO][15:07:46:868][Photon] Photon with id: 3 procedure entered.
+[INFO][15:07:46:868][Photon] Photon with id: 3 thread released.
+[INFO][15:07:46:875][Photon] Joining a photon with id: 3...
+[INFO][15:07:51:887][Photon] Joined a photon with id: 3.
+[INFO][15:07:51:890][Photon] Creating a new photon with id: 4.
+[INFO][15:07:51:899][Photon] Photon with id: 4 procedure entered.
+[INFO][15:07:51:899][Photon] Photon with id: 4 thread released.
+[INFO][15:07:51:909][Photon] Joining a photon with id: 4...
+[INFO][15:07:56:906][Photon] Joined a photon with id: 4.
+[INFO][15:07:56:910][Photon] Creating a new photon with id: 5.
+[INFO][15:07:56:922][Photon] Photon with id: 5 thread released.
+[INFO][15:07:56:922][Photon] Photon with id: 5 procedure entered.
+[INFO][15:07:56:928][Photon] Joining a photon with id: 5...
+[INFO][15:09:39:783][Main] Arguments parsed.
+[INFO][15:09:39:787][Main] Total number of photons: 10
+[INFO][15:09:39:789][Main] Number of photons in parallel: 1
+[INFO][15:09:39:793][PhotonGenerator] Thread released.
+[INFO][15:09:39:793][PhotonGenerator] Procedure entered.
+[INFO][15:09:39:795][Photon] Creating a new photon with id: 0.
+[INFO][15:09:39:794][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][15:09:39:798][Photon] Photon with id: 0 thread released.
+[INFO][15:09:39:802][Photon] Joining a photon with id: 0...
+[INFO][15:09:39:802][Photon] Photon with id: 0 procedure entered.
+[INFO][15:10:13:852][Main] Arguments parsed.
+[INFO][15:10:13:854][Main] Total number of photons: 10
+[INFO][15:10:13:855][Main] Number of photons in parallel: 1
+[INFO][15:10:13:857][PhotonGenerator] Thread released.
+[INFO][15:10:13:857][PhotonGenerator] Procedure entered.
+[INFO][15:10:13:857][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][15:10:13:858][Photon] Creating a new photon with id: 0.
+[INFO][15:10:13:860][Photon] Photon with id: 0 thread released.
+[INFO][15:10:13:860][Photon] Photon with id: 0 procedure entered.
+[INFO][15:10:13:860][Photon] Joining a photon with id: 0...
+[INFO][15:10:18:871][Photon] Joined a photon with id: 0.
+[INFO][15:10:18:875][Photon] Creating a new photon with id: 1.
+[INFO][15:10:18:884][Photon] Photon with id: 1 procedure entered.
+[INFO][15:10:18:884][Photon] Photon with id: 1 thread released.
+[INFO][15:10:18:891][Photon] Joining a photon with id: 1...
+[INFO][15:10:22:431][PhotonGenerator] Signaled to exit.
+[INFO][15:10:23:897][Photon] Joined a photon with id: 1.
+[INFO][15:10:23:900][Photon] Creating a new photon with id: 2.
+[INFO][15:10:23:909][Photon] Photon with id: 2 procedure entered.
+[INFO][15:10:23:909][Photon] Photon with id: 2 thread released.
+[INFO][15:10:23:916][PhotonGenerator] PhotonGenerator thread joined.
+[INFO][16:14:13:413][Main] Arguments parsed.
+[INFO][16:14:13:417][Main] Total number of photons: 10
+[INFO][16:14:13:418][Main] Number of photons in parallel: 1
+[INFO][16:14:13:421][PhotonGenerator] Thread released.
+[INFO][16:14:13:421][PhotonGenerator] Procedure entered.
+[INFO][16:14:13:422][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][16:14:13:422][Photon] Creating a new photon with id: 0.
+[INFO][16:14:13:424][Photon] Photon with id: 0 thread released.
+[INFO][16:14:13:424][Photon] Photon with id: 0 procedure entered.
+[INFO][16:14:13:425][Photon] Joining a photon with id: 0...
+[INFO][16:14:18:342][Photon] Initializing Omega vector...
+[INFO][16:15:20:525][Main] Arguments parsed.
+[INFO][16:15:20:526][Main] Total number of photons: 10
+[INFO][16:15:20:526][Main] Number of photons in parallel: 1
+[INFO][16:15:20:527][PhotonGenerator] Procedure entered.
+[INFO][16:15:20:527][Photon] Creating a new photon with id: 0.
+[INFO][16:15:20:527][PhotonGenerator] Thread released.
+[INFO][16:15:20:527][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][16:15:20:528][Photon] Photon with id: 0 thread released.
+[INFO][16:15:20:528][Photon] Photon with id: 0 procedure entered.
+[INFO][16:15:20:529][Photon] Joining a photon with id: 0...
+[INFO][16:15:42:276][Photon] Initializing Omega vector...
+[INFO][16:17:42:433][Main] Arguments parsed.
+[INFO][16:17:42:434][Main] Total number of photons: 10
+[INFO][16:17:42:435][Main] Number of photons in parallel: 1
+[INFO][16:17:42:435][PhotonGenerator] Thread released.
+[INFO][16:17:42:435][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][16:17:42:435][PhotonGenerator] Procedure entered.
+[INFO][16:17:42:436][Photon] Creating a new photon with id: 0.
+[INFO][16:17:42:436][Photon] Photon with id: 0 thread released.
+[INFO][16:17:42:436][Photon] Photon with id: 0 procedure entered.
+[INFO][16:17:42:436][Photon] Joining a photon with id: 0...
+[INFO][16:17:46:321][Photon] Initializing Omega vector...
+[INFO][20:33:59:022][Main] Arguments parsed.
+[INFO][20:33:59:025][Main] Total number of photons: 10
+[INFO][20:33:59:025][Main] Number of photons in parallel: 1
+[INFO][20:33:59:026][PhotonGenerator] Thread released.
+[INFO][20:33:59:026][PhotonGenerator] Procedure entered.
+[INFO][20:33:59:026][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][20:34:28:987][Photon] Creating a new photon with id: 0.
+[INFO][20:34:31:385][Photon] Initializing Omega vector...
+[INFO][20:34:44:676][Photon] Omega vector initialized.
+[INFO][20:43:34:874][Main] Arguments parsed.
+[INFO][20:43:34:881][Main] Total number of photons: 10
+[INFO][20:43:34:881][Main] Number of photons in parallel: 1
+[INFO][20:43:34:882][PhotonGenerator] Procedure entered.
+[INFO][20:43:34:882][PhotonGenerator] Thread released.
+[INFO][20:43:38:230][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][20:44:02:866][Photon] Creating a new photon with id: 0.
+[INFO][20:44:05:569][Photon] Initializing Omega vector...
+[INFO][20:46:58:118][Photon] Omega vector initialized.
+[INFO][21:16:43:557][Main] Arguments parsed.
+[INFO][21:16:43:558][Main] Total number of photons: 10
+[INFO][21:16:43:558][Main] Number of photons in parallel: 1
+[INFO][21:16:43:559][PhotonGenerator] Procedure entered.
+[INFO][21:16:43:559][PhotonGenerator] Thread released.
+[INFO][21:16:49:702][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][21:17:07:306][Photon] Creating a new photon with id: 0.
+[INFO][21:17:07:306][Photon] Initializing Omega vector...
+[INFO][21:17:07:306][Photon] Omega vector initialized.
+[INFO][21:20:03:707][Main] Arguments parsed.
+[INFO][21:20:03:708][Main] Total number of photons: 10
+[INFO][21:20:03:708][Main] Number of photons in parallel: 1
+[INFO][21:20:03:709][PhotonGenerator] Thread released.
+[INFO][21:20:03:709][PhotonGenerator] Procedure entered.
+[INFO][21:20:03:709][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][21:20:08:644][Photon] Creating a new photon with id: 0.
+[INFO][21:20:08:644][Photon] Initializing Omega vector...
+[INFO][21:20:08:644][Photon] Omega vector initialized.
+[INFO][21:20:31:782][Main] Arguments parsed.
+[INFO][21:20:31:783][Main] Total number of photons: 10
+[INFO][21:20:31:783][Main] Number of photons in parallel: 1
+[INFO][21:20:31:784][PhotonGenerator] Thread released.
+[INFO][21:20:31:784][PhotonGenerator] Procedure entered.
+[INFO][21:20:31:784][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][21:20:33:807][Photon] Creating a new photon with id: 0.
+[INFO][21:20:33:808][Photon] Initializing Omega vector...
+[INFO][21:20:33:808][Photon] Omega vector initialized.
+[INFO][21:20:47:962][Main] Arguments parsed.
+[INFO][21:20:47:963][Main] Total number of photons: 10
+[INFO][21:20:47:963][Main] Number of photons in parallel: 1
+[INFO][21:20:47:964][PhotonGenerator] Thread released.
+[INFO][21:20:47:964][PhotonGenerator] Procedure entered.
+[INFO][21:20:47:964][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][21:20:52:523][Photon] Creating a new photon with id: 0.
+[INFO][21:20:52:523][Photon] Initializing Omega vector...
+[INFO][21:20:52:523][Photon] Omega vector initialized.
+[INFO][21:23:02:705][Main] Arguments parsed.
+[INFO][21:23:02:707][Main] Total number of photons: 10
+[INFO][21:23:02:707][Main] Number of photons in parallel: 1
+[INFO][21:23:02:708][PhotonGenerator] Thread released.
+[INFO][21:23:02:708][PhotonGenerator] Procedure entered.
+[INFO][21:23:02:708][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][21:23:32:772][Photon] Creating a new photon with id: 0.
+[INFO][21:23:32:772][Photon] Initializing Omega vector...
+[INFO][21:23:32:772][Photon] Omega vector initialized.
+[INFO][21:24:00:021][Photon] Creating a new photon with id: 1.
+[INFO][21:24:00:022][Photon] Initializing Omega vector...
+[INFO][21:24:00:022][Photon] Omega vector initialized.
+[INFO][21:29:34:056][Main] Arguments parsed.
+[INFO][21:29:34:057][Main] Total number of photons: 10
+[INFO][21:29:34:057][Main] Number of photons in parallel: 1
+[INFO][21:29:34:061][PhotonGenerator] Thread released.
+[INFO][21:29:34:061][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][21:29:34:062][PhotonGenerator] Procedure entered.
+[INFO][21:29:35:742][Photon] Creating a new photon with id: 0.
+[INFO][21:29:35:742][Photon] Initializing Omega vector...
+[INFO][21:29:35:742][Photon] Omega vector initialized.
+[INFO][21:29:41:530][Photon] Creating a new photon with id: 1.
+[INFO][21:29:41:531][Photon] Initializing Omega vector...
+[INFO][21:29:41:531][Photon] Omega vector initialized.
+[INFO][21:31:22:174][Main] Arguments parsed.
+[INFO][21:31:22:176][Main] Total number of photons: 10
+[INFO][21:31:22:176][Main] Number of photons in parallel: 1
+[INFO][21:31:22:178][PhotonGenerator] Procedure entered.
+[INFO][21:31:22:178][PhotonGenerator] Thread released.
+[INFO][21:31:30:275][Photon] Creating a new photon with id: 0.
+[INFO][21:31:30:275][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][21:31:30:276][Photon] Initializing Omega vector...
+[INFO][21:31:30:276][Photon] Omega vector initialized.
+[INFO][21:31:34:291][Photon] Creating a new photon with id: 1.
+[INFO][21:31:34:291][Photon] Initializing Omega vector...
+[INFO][21:31:34:291][Photon] Omega vector initialized.
+[INFO][21:33:53:163][Main] Arguments parsed.
+[INFO][21:33:53:164][Main] Total number of photons: 10
+[INFO][21:33:53:164][Main] Number of photons in parallel: 1
+[INFO][21:33:53:165][PhotonGenerator] Thread released.
+[INFO][21:33:53:165][PhotonGenerator] Procedure entered.
+[INFO][21:33:53:165][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][21:34:01:021][Photon] Creating a new photon with id: 0.
+[INFO][21:34:01:021][Photon] Initializing Omega vector...
+[INFO][21:34:01:021][Photon] Omega vector initialized.
+[INFO][21:34:02:861][Photon] Creating a new photon with id: 1.
+[INFO][21:34:02:861][Photon] Initializing Omega vector...
+[INFO][21:34:02:862][Photon] Omega vector initialized.
+[INFO][21:36:13:009][Photon] Creating a new photon with id: 2.
+[INFO][21:36:13:010][Photon] Initializing Omega vector...
+[INFO][21:36:13:010][Photon] Omega vector initialized.
+[INFO][21:51:46:002][Main] Arguments parsed.
+[INFO][21:51:46:004][Main] Total number of photons: 10
+[INFO][21:51:46:006][Main] Number of photons in parallel: 1
+[INFO][21:51:46:007][PhotonGenerator] Procedure entered.
+[INFO][21:51:46:007][PhotonGenerator] Thread released.
+[INFO][21:51:46:008][Photon] Creating a new photon with id: 0.
+[INFO][21:51:46:009][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][21:51:46:010][Photon] Initializing Omega vector...
+[INFO][21:51:46:011][Photon] Omega vector initialized.
+[INFO][21:51:46:012][Photon] Photon with id: 0 thread released.
+[INFO][21:51:46:012][Photon] Photon with id: 0 procedure entered.
+[INFO][21:51:46:012][Photon] Joining a photon with id: 0...
+[INFO][21:51:56:024][Photon] Joined a photon with id: 0.
+[INFO][21:51:56:026][Photon] Creating a new photon with id: 1.
+[INFO][21:51:56:027][Photon] Initializing Omega vector...
+[INFO][21:51:56:028][Photon] Omega vector initialized.
+[INFO][21:51:56:029][Photon] Photon with id: 1 thread released.
+[INFO][21:51:56:029][Photon] Photon with id: 1 procedure entered.
+[INFO][21:51:56:030][Photon] Joining a photon with id: 1...
+[INFO][21:52:48:479][Main] Arguments parsed.
+[INFO][21:52:48:481][Main] Total number of photons: 10
+[INFO][21:52:48:481][Main] Number of photons in parallel: 1
+[INFO][21:52:48:483][PhotonGenerator] Thread released.
+[INFO][21:52:48:484][PhotonGenerator] Procedure entered.
+[INFO][21:52:48:484][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][21:52:48:485][Photon] Creating a new photon with id: 0.
+[INFO][21:52:48:487][Photon] Initializing Omega vector...
+[INFO][21:52:48:487][Photon] Omega vector initialized.
+[DEBUG][21:52:48:488][PhotonGenerator] Detector contains photon with id: 0
+[INFO][21:52:48:489][Photon] Photon with id: 0 thread released.
+[INFO][21:52:48:489][Photon] Photon with id: 0 procedure entered.
+[INFO][21:52:48:490][Photon] Joining a photon with id: 0...
+[INFO][21:52:58:499][Photon] Joined a photon with id: 0.
+[INFO][21:52:58:500][Photon] Creating a new photon with id: 1.
+[INFO][21:52:58:501][Photon] Initializing Omega vector...
+[INFO][21:52:58:502][Photon] Omega vector initialized.
+[DEBUG][21:52:58:503][PhotonGenerator] Detector contains photon with id: 1
+[INFO][21:52:58:505][Photon] Photon with id: 1 thread released.
+[INFO][21:52:58:505][Photon] Photon with id: 1 procedure entered.
+[INFO][21:52:58:506][Photon] Joining a photon with id: 1...
+[INFO][21:53:08:521][Photon] Joined a photon with id: 1.
+[INFO][21:53:08:522][Photon] Creating a new photon with id: 2.
+[INFO][21:53:08:522][Photon] Initializing Omega vector...
+[INFO][21:53:08:523][Photon] Omega vector initialized.
+[DEBUG][21:53:08:524][PhotonGenerator] Photon with id: 2 is going in opposite direction. Making new photon...
+[INFO][21:53:08:525][Photon] Creating a new photon with id: 3.
+[INFO][21:53:08:525][Photon] Initializing Omega vector...
+[INFO][21:53:08:526][Photon] Omega vector initialized.
+[DEBUG][21:53:08:527][PhotonGenerator] Detector doesn't contain photon with id: 3. Making new photon...
+[INFO][21:53:08:528][Photon] Creating a new photon with id: 4.
+[INFO][21:53:08:528][Photon] Initializing Omega vector...
+[INFO][21:53:08:529][Photon] Omega vector initialized.
+[DEBUG][21:53:08:530][PhotonGenerator] Photon with id: 4 is going in opposite direction. Making new photon...
+[INFO][21:53:08:530][Photon] Creating a new photon with id: 5.
+[INFO][21:53:08:531][Photon] Initializing Omega vector...
+[INFO][21:53:08:532][Photon] Omega vector initialized.
+[DEBUG][21:53:08:533][PhotonGenerator] Detector contains photon with id: 5
+[INFO][21:53:08:535][Photon] Photon with id: 5 procedure entered.
+[INFO][21:53:08:535][Photon] Photon with id: 5 thread released.
+[INFO][21:53:08:537][Photon] Joining a photon with id: 5...
+[INFO][21:53:18:545][Photon] Joined a photon with id: 5.
+[INFO][21:53:18:548][Photon] Creating a new photon with id: 6.
+[INFO][21:53:18:550][Photon] Initializing Omega vector...
+[INFO][21:53:18:551][Photon] Omega vector initialized.
+[DEBUG][21:53:18:553][PhotonGenerator] Photon with id: 6 is going in opposite direction. Making new photon...
+[INFO][21:53:18:555][Photon] Creating a new photon with id: 7.
+[INFO][21:53:18:556][Photon] Initializing Omega vector...
+[INFO][21:53:18:557][Photon] Omega vector initialized.
+[DEBUG][21:53:18:558][PhotonGenerator] Detector doesn't contain photon with id: 7. Making new photon...
+[INFO][21:53:18:559][Photon] Creating a new photon with id: 8.
+[INFO][21:53:18:560][Photon] Initializing Omega vector...
+[INFO][21:53:18:562][Photon] Omega vector initialized.
+[DEBUG][21:53:18:564][PhotonGenerator] Detector contains photon with id: 8
+[INFO][21:53:18:568][Photon] Photon with id: 8 procedure entered.
+[INFO][21:53:18:568][Photon] Photon with id: 8 thread released.
+[INFO][21:53:18:571][Photon] Joining a photon with id: 8...
+[INFO][21:53:28:574][Photon] Joined a photon with id: 8.
+[INFO][21:53:28:575][Photon] Creating a new photon with id: 9.
+[INFO][21:53:28:575][Photon] Initializing Omega vector...
+[INFO][21:53:28:576][Photon] Omega vector initialized.
+[DEBUG][21:53:28:577][PhotonGenerator] Detector contains photon with id: 9
+[INFO][21:53:28:579][Photon] Photon with id: 9 thread released.
+[INFO][21:53:28:579][Photon] Photon with id: 9 procedure entered.
+[INFO][21:53:28:580][Photon] Joining a photon with id: 9...
+[INFO][21:53:38:584][Photon] Joined a photon with id: 9.
+[INFO][21:53:38:586][Photon] Creating a new photon with id: 10.
+[INFO][21:53:38:588][Photon] Initializing Omega vector...
+[INFO][21:53:38:588][Photon] Omega vector initialized.
+[DEBUG][21:53:38:589][PhotonGenerator] Photon with id: 10 is going in opposite direction. Making new photon...
+[INFO][21:53:38:589][Photon] Creating a new photon with id: 11.
+[INFO][21:53:38:590][Photon] Initializing Omega vector...
+[INFO][21:53:38:590][Photon] Omega vector initialized.
+[DEBUG][21:53:38:591][PhotonGenerator] Detector contains photon with id: 11
+[INFO][21:53:38:592][Photon] Photon with id: 11 thread released.
+[INFO][21:53:38:592][Photon] Photon with id: 11 procedure entered.
+[INFO][21:53:38:593][Photon] Joining a photon with id: 11...
+[INFO][21:53:48:597][Photon] Joined a photon with id: 11.
+[INFO][21:53:48:598][Photon] Creating a new photon with id: 12.
+[INFO][21:53:48:599][Photon] Initializing Omega vector...
+[INFO][21:53:48:599][Photon] Omega vector initialized.
+[DEBUG][21:53:48:600][PhotonGenerator] Detector contains photon with id: 12
+[INFO][21:53:48:603][Photon] Photon with id: 12 thread released.
+[INFO][21:53:48:603][Photon] Photon with id: 12 procedure entered.
+[INFO][21:53:48:604][Photon] Joining a photon with id: 12...
+[INFO][21:53:58:608][Photon] Joined a photon with id: 12.
+[INFO][21:53:58:610][Photon] Creating a new photon with id: 13.
+[INFO][21:53:58:613][Photon] Initializing Omega vector...
+[INFO][21:53:58:617][Photon] Omega vector initialized.
+[DEBUG][21:53:58:618][PhotonGenerator] Photon with id: 13 is going in opposite direction. Making new photon...
+[INFO][21:53:58:620][Photon] Creating a new photon with id: 14.
+[INFO][21:53:58:622][Photon] Initializing Omega vector...
+[INFO][21:53:58:623][Photon] Omega vector initialized.
+[DEBUG][21:53:58:627][PhotonGenerator] Photon with id: 14 is going in opposite direction. Making new photon...
+[INFO][21:53:58:628][Photon] Creating a new photon with id: 15.
+[INFO][21:53:58:630][Photon] Initializing Omega vector...
+[INFO][21:53:58:631][Photon] Omega vector initialized.
+[DEBUG][21:53:58:633][PhotonGenerator] Detector contains photon with id: 15
+[INFO][21:53:58:637][Photon] Photon with id: 15 thread released.
+[INFO][21:53:58:637][Photon] Photon with id: 15 procedure entered.
+[INFO][21:53:58:639][Photon] Joining a photon with id: 15...
+[INFO][21:54:08:642][Photon] Joined a photon with id: 15.
+[INFO][21:54:08:643][Photon] Creating a new photon with id: 16.
+[INFO][21:54:08:644][Photon] Initializing Omega vector...
+[INFO][21:54:08:646][Photon] Omega vector initialized.
+[DEBUG][21:54:08:647][PhotonGenerator] Detector doesn't contain photon with id: 16. Making new photon...
+[INFO][21:54:08:647][Photon] Creating a new photon with id: 17.
+[INFO][21:54:08:648][Photon] Initializing Omega vector...
+[INFO][21:54:08:649][Photon] Omega vector initialized.
+[DEBUG][21:54:08:649][PhotonGenerator] Detector contains photon with id: 17
+[INFO][21:54:08:651][Photon] Photon with id: 17 thread released.
+[INFO][21:54:08:651][Photon] Photon with id: 17 procedure entered.
+[INFO][21:54:08:651][Photon] Joining a photon with id: 17...
+[INFO][21:54:18:661][Photon] Joined a photon with id: 17.
+[INFO][21:54:18:661][Photon] Creating a new photon with id: 18.
+[INFO][21:54:18:662][Photon] Initializing Omega vector...
+[INFO][21:54:18:663][Photon] Omega vector initialized.
+[DEBUG][21:54:18:664][PhotonGenerator] Photon with id: 18 is going in opposite direction. Making new photon...
+[INFO][21:54:18:665][Photon] Creating a new photon with id: 19.
+[INFO][21:54:18:666][Photon] Initializing Omega vector...
+[INFO][21:54:18:667][Photon] Omega vector initialized.
+[DEBUG][21:54:18:668][PhotonGenerator] Photon with id: 19 is going in opposite direction. Making new photon...
+[INFO][21:54:18:668][Photon] Creating a new photon with id: 20.
+[INFO][21:54:18:669][Photon] Initializing Omega vector...
+[INFO][21:54:18:670][Photon] Omega vector initialized.
+[DEBUG][21:54:18:670][PhotonGenerator] Photon with id: 20 is going in opposite direction. Making new photon...
+[INFO][21:54:18:671][Photon] Creating a new photon with id: 21.
+[INFO][21:54:18:672][Photon] Initializing Omega vector...
+[INFO][21:54:18:673][Photon] Omega vector initialized.
+[DEBUG][21:54:18:674][PhotonGenerator] Photon with id: 21 is going in opposite direction. Making new photon...
+[INFO][21:54:18:675][Photon] Creating a new photon with id: 22.
+[INFO][21:54:18:676][Photon] Initializing Omega vector...
+[INFO][21:54:18:678][Photon] Omega vector initialized.
+[DEBUG][21:54:18:679][PhotonGenerator] Photon with id: 22 is going in opposite direction. Making new photon...
+[INFO][21:54:18:680][Photon] Creating a new photon with id: 23.
+[INFO][21:54:18:680][Photon] Initializing Omega vector...
+[INFO][21:54:18:681][Photon] Omega vector initialized.
+[DEBUG][21:54:18:682][PhotonGenerator] Detector doesn't contain photon with id: 23. Making new photon...
+[INFO][21:54:18:683][Photon] Creating a new photon with id: 24.
+[INFO][21:54:18:684][Photon] Initializing Omega vector...
+[INFO][21:54:18:684][Photon] Omega vector initialized.
+[DEBUG][21:54:18:685][PhotonGenerator] Photon with id: 24 is going in opposite direction. Making new photon...
+[INFO][21:54:18:686][Photon] Creating a new photon with id: 25.
+[INFO][21:54:18:687][Photon] Initializing Omega vector...
+[INFO][21:54:18:688][Photon] Omega vector initialized.
+[DEBUG][21:54:18:689][PhotonGenerator] Photon with id: 25 is going in opposite direction. Making new photon...
+[INFO][21:54:18:690][Photon] Creating a new photon with id: 26.
+[INFO][21:54:18:691][Photon] Initializing Omega vector...
+[INFO][21:54:18:692][Photon] Omega vector initialized.
+[DEBUG][21:54:18:693][PhotonGenerator] Photon with id: 26 is going in opposite direction. Making new photon...
+[INFO][21:54:18:694][Photon] Creating a new photon with id: 27.
+[INFO][21:54:18:696][Photon] Initializing Omega vector...
+[INFO][21:54:18:697][Photon] Omega vector initialized.
+[DEBUG][21:54:18:698][PhotonGenerator] Photon with id: 27 is going in opposite direction. Making new photon...
+[INFO][21:54:18:698][Photon] Creating a new photon with id: 28.
+[INFO][21:54:18:699][Photon] Initializing Omega vector...
+[INFO][21:54:18:700][Photon] Omega vector initialized.
+[DEBUG][21:54:18:701][PhotonGenerator] Detector doesn't contain photon with id: 28. Making new photon...
+[INFO][21:54:18:701][Photon] Creating a new photon with id: 29.
+[INFO][21:54:18:703][Photon] Initializing Omega vector...
+[INFO][21:54:18:705][Photon] Omega vector initialized.
+[DEBUG][21:54:18:710][PhotonGenerator] Photon with id: 29 is going in opposite direction. Making new photon...
+[INFO][21:54:18:711][Photon] Creating a new photon with id: 30.
+[INFO][21:54:18:713][Photon] Initializing Omega vector...
+[INFO][21:54:18:713][Photon] Omega vector initialized.
+[DEBUG][21:54:18:714][PhotonGenerator] Detector doesn't contain photon with id: 30. Making new photon...
+[INFO][21:54:18:715][Photon] Creating a new photon with id: 31.
+[INFO][21:54:18:715][Photon] Initializing Omega vector...
+[INFO][21:54:18:716][Photon] Omega vector initialized.
+[DEBUG][21:54:18:717][PhotonGenerator] Photon with id: 31 is going in opposite direction. Making new photon...
+[INFO][21:54:18:718][Photon] Creating a new photon with id: 32.
+[INFO][21:54:18:719][Photon] Initializing Omega vector...
+[INFO][21:54:18:719][Photon] Omega vector initialized.
+[DEBUG][21:54:18:720][PhotonGenerator] Detector contains photon with id: 32
+[INFO][21:54:18:722][Photon] Photon with id: 32 thread released.
+[INFO][21:54:18:722][Photon] Photon with id: 32 procedure entered.
+[INFO][21:54:18:723][Photon] Joining a photon with id: 32...
+[INFO][21:54:28:734][Photon] Joined a photon with id: 32.
+[INFO][21:54:28:736][Photon] Creating a new photon with id: 33.
+[INFO][21:54:28:737][Photon] Initializing Omega vector...
+[INFO][21:54:28:738][Photon] Omega vector initialized.
+[DEBUG][21:54:28:738][PhotonGenerator] Detector doesn't contain photon with id: 33. Making new photon...
+[INFO][21:54:28:739][Photon] Creating a new photon with id: 34.
+[INFO][21:54:28:739][Photon] Initializing Omega vector...
+[INFO][21:54:28:740][Photon] Omega vector initialized.
+[DEBUG][21:54:28:740][PhotonGenerator] Photon with id: 34 is going in opposite direction. Making new photon...
+[INFO][21:54:28:741][Photon] Creating a new photon with id: 35.
+[INFO][21:54:28:741][Photon] Initializing Omega vector...
+[INFO][21:54:28:742][Photon] Omega vector initialized.
+[DEBUG][21:54:28:742][PhotonGenerator] Photon with id: 35 is going in opposite direction. Making new photon...
+[INFO][21:54:28:743][Photon] Creating a new photon with id: 36.
+[INFO][21:54:28:743][Photon] Initializing Omega vector...
+[INFO][21:54:28:743][Photon] Omega vector initialized.
+[DEBUG][21:54:28:744][PhotonGenerator] Detector doesn't contain photon with id: 36. Making new photon...
+[INFO][21:54:28:745][Photon] Creating a new photon with id: 37.
+[INFO][21:54:28:746][Photon] Initializing Omega vector...
+[INFO][21:54:28:747][Photon] Omega vector initialized.
+[DEBUG][21:54:28:747][PhotonGenerator] Photon with id: 37 is going in opposite direction. Making new photon...
+[INFO][21:54:28:748][Photon] Creating a new photon with id: 38.
+[INFO][21:54:28:748][Photon] Initializing Omega vector...
+[INFO][21:54:28:749][Photon] Omega vector initialized.
+[DEBUG][21:54:28:749][PhotonGenerator] Detector doesn't contain photon with id: 38. Making new photon...
+[INFO][21:54:28:750][Photon] Creating a new photon with id: 39.
+[INFO][21:54:28:750][Photon] Initializing Omega vector...
+[INFO][21:54:28:751][Photon] Omega vector initialized.
+[DEBUG][21:54:28:751][PhotonGenerator] Photon with id: 39 is going in opposite direction. Making new photon...
+[INFO][21:54:28:752][Photon] Creating a new photon with id: 40.
+[INFO][21:54:28:752][Photon] Initializing Omega vector...
+[INFO][21:54:28:752][Photon] Omega vector initialized.
+[DEBUG][21:54:28:753][PhotonGenerator] Photon with id: 40 is going in opposite direction. Making new photon...
+[INFO][21:54:28:753][Photon] Creating a new photon with id: 41.
+[INFO][21:54:28:754][Photon] Initializing Omega vector...
+[INFO][21:54:28:755][Photon] Omega vector initialized.
+[DEBUG][21:54:28:756][PhotonGenerator] Photon with id: 41 is going in opposite direction. Making new photon...
+[INFO][21:54:28:756][Photon] Creating a new photon with id: 42.
+[INFO][21:54:28:757][Photon] Initializing Omega vector...
+[INFO][21:54:28:757][Photon] Omega vector initialized.
+[DEBUG][21:54:28:758][PhotonGenerator] Photon with id: 42 is going in opposite direction. Making new photon...
+[INFO][21:54:28:758][Photon] Creating a new photon with id: 43.
+[INFO][21:54:28:759][Photon] Initializing Omega vector...
+[INFO][21:54:28:759][Photon] Omega vector initialized.
+[DEBUG][21:54:28:760][PhotonGenerator] Detector contains photon with id: 43
+[INFO][21:54:28:762][Photon] Photon with id: 43 thread released.
+[INFO][21:54:28:762][Photon] Photon with id: 43 procedure entered.
+[INFO][21:54:28:762][Photon] Joining a photon with id: 43...
+[INFO][14:59:22:056][Main] Arguments parsed.
+[INFO][14:59:22:061][Main] Total number of photons: 10
+[INFO][14:59:22:061][Main] Number of photons in parallel: 1
+[INFO][14:59:22:062][PhotonGenerator] Procedure entered.
+[INFO][14:59:22:062][PhotonGenerator] Thread released.
+[INFO][14:59:22:062][Photon] Creating a new photon with id: 0.
+[INFO][14:59:22:062][Photon] Initializing Omega vector...
+[INFO][14:59:22:062][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][14:59:22:063][Photon] Omega vector initialized.
+[DEBUG][15:04:06:670][PhotonGenerator] Created photon with id: 0 will hit the phantom.
+[INFO][15:04:42:129][Main] Arguments parsed.
+[INFO][15:04:42:130][Main] Total number of photons: 10
+[INFO][15:04:42:130][Main] Number of photons in parallel: 1
+[INFO][15:04:42:130][PhotonGenerator] Thread released.
+[INFO][15:04:42:130][PhotonGenerator] Procedure entered.
+[INFO][15:04:42:130][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][15:04:42:130][Photon] Creating a new photon with id: 0.
+[INFO][15:04:42:131][Photon] Initializing Omega vector...
+[INFO][15:04:42:131][Photon] Omega vector initialized.
+[DEBUG][15:04:44:263][PhotonGenerator] Created photon with id: 0 will hit the phantom.
+[INFO][15:04:44:265][Photon] Photon with id: 0 thread released.
+[INFO][15:04:44:265][Photon] Joining a photon with id: 0...
+[INFO][15:04:44:265][Photon] Photon with id: 0 procedure entered.
+[INFO][15:04:54:273][Photon] Joined a photon with id: 0.
+[INFO][15:04:54:273][Photon] Creating a new photon with id: 1.
+[INFO][15:04:54:273][Photon] Initializing Omega vector...
+[INFO][15:04:54:276][Photon] Omega vector initialized.
+[DEBUG][15:07:39:667][PhotonGenerator] Created photon with id: 1 will hit the phantom.
+[INFO][15:07:39:669][Photon] Photon with id: 1 thread released.
+[INFO][15:07:39:669][Photon] Joining a photon with id: 1...
+[INFO][15:07:39:669][Photon] Photon with id: 1 procedure entered.
+[INFO][15:07:49:679][Photon] Joined a photon with id: 1.
+[INFO][15:07:49:679][Photon] Creating a new photon with id: 2.
+[INFO][15:07:49:679][Photon] Initializing Omega vector...
+[INFO][15:07:49:679][Photon] Omega vector initialized.
+[INFO][15:12:19:063][Main] Arguments parsed.
+[INFO][15:12:19:064][Main] Total number of photons: 10
+[INFO][15:12:19:064][Main] Number of photons in parallel: 1
+[INFO][15:12:19:065][PhotonGenerator] Thread released.
+[INFO][15:12:19:065][PhotonGenerator] Procedure entered.
+[INFO][15:12:19:065][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][15:12:19:065][Photon] Creating a new photon with id: 0.
+[INFO][15:12:19:066][Photon] Initializing Omega vector...
+[INFO][15:12:19:066][Photon] Omega vector initialized.
+[INFO][15:12:27:550][Main] Arguments parsed.
+[INFO][15:12:27:551][Main] Total number of photons: 10
+[INFO][15:12:27:551][Main] Number of photons in parallel: 1
+[INFO][15:12:27:552][PhotonGenerator] Thread released.
+[INFO][15:12:27:552][PhotonGenerator] Procedure entered.
+[INFO][15:12:27:552][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][15:12:27:553][Photon] Creating a new photon with id: 0.
+[INFO][15:12:27:553][Photon] Initializing Omega vector...
+[INFO][15:12:27:553][Photon] Omega vector initialized.
+[DEBUG][15:12:32:081][PhotonGenerator] Created photon with id: 0 will hit the phantom.
+[INFO][15:12:32:083][Photon] Photon with id: 0 thread released.
+[INFO][15:12:32:083][Photon] Photon with id: 0 procedure entered.
+[INFO][15:12:32:083][Photon] Joining a photon with id: 0...
+[INFO][15:12:32:083][Photon] Joined a photon with id: 0.
+[INFO][15:12:32:084][Photon] Creating a new photon with id: 1.
+[INFO][15:12:32:084][Photon] Initializing Omega vector...
+[INFO][15:12:32:084][Photon] Omega vector initialized.
+[DEBUG][15:12:33:039][PhotonGenerator] Created photon with id: 1 will hit the phantom.
+[INFO][15:12:33:040][Photon] Photon with id: 1 thread released.
+[INFO][15:12:33:040][Photon] Joining a photon with id: 1...
+[INFO][15:12:33:040][Photon] Photon with id: 1 procedure entered.
+[INFO][15:12:33:041][Photon] Joined a photon with id: 1.
+[INFO][15:12:33:041][Photon] Creating a new photon with id: 2.
+[INFO][15:12:33:041][Photon] Initializing Omega vector...
+[INFO][15:12:33:041][Photon] Omega vector initialized.
+[DEBUG][15:12:42:460][PhotonGenerator] Created photon with id: 2 won't hit the phantom. Making new photon...
+[INFO][15:12:44:932][Photon] Creating a new photon with id: 3.
+[INFO][15:12:44:932][Photon] Initializing Omega vector...
+[INFO][15:12:44:933][Photon] Omega vector initialized.
+[INFO][19:17:16:761][Main] Arguments parsed.
+[INFO][19:17:16:765][Main] Total number of photons: 10
+[INFO][19:17:16:765][Main] Number of photons in parallel: 1
+[ERROR][19:17:58:894][Ellipsoid1] Failed to open file: mi_attenuation_coeff_H20.txt
+[INFO][19:18:31:550][Main] Arguments parsed.
+[INFO][19:18:31:550][Main] Total number of photons: 10
+[INFO][19:18:31:551][Main] Number of photons in parallel: 1
+[INFO][19:19:55:104][Main] Arguments parsed.
+[INFO][19:19:55:105][Main] Total number of photons: 10
+[INFO][19:19:55:105][Main] Number of photons in parallel: 1
+[INFO][19:32:03:543][Main] Arguments parsed.
+[INFO][19:32:03:544][Main] Total number of photons: 10
+[INFO][19:32:03:544][Main] Number of photons in parallel: 1
+[INFO][19:35:49:446][Main] Arguments parsed.
+[INFO][19:35:49:447][Main] Total number of photons: 10
+[INFO][19:35:49:447][Main] Number of photons in parallel: 1
+[INFO][19:36:21:506][Main] Arguments parsed.
+[INFO][19:36:21:507][Main] Total number of photons: 10
+[INFO][19:36:21:507][Main] Number of photons in parallel: 1
+[INFO][19:39:23:023][Main] Arguments parsed.
+[INFO][19:39:23:024][Main] Total number of photons: 10
+[INFO][19:39:23:024][Main] Number of photons in parallel: 1

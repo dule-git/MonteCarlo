@@ -1,0 +1,4 @@
+C:/Users/dusan/Desktop/Projects/MonteCarlo/cmake-build-debug/CMakeFiles/MonteCarlo.dir
+C:/Users/dusan/Desktop/Projects/MonteCarlo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/dusan/Desktop/Projects/MonteCarlo/cmake-build-debug/CMakeFiles/test.dir
+C:/Users/dusan/Desktop/Projects/MonteCarlo/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MonteCarlo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\dev\;CMake Files\..\..\..\..\..\dev\vcpkg\;CMake Files\..\..\..\..\..\dev\vcpkg\scripts\;CMake Files\..\..\..\..\..\dev\vcpkg\scripts\buildsystems\;CMake Files\..\..\..\..\..\dev\vcpkg\installed\;CMake Files\..\..\..\..\..\dev\vcpkg\installed\x86-windows\;CMake Files\..\..\..\..\..\dev\vcpkg\installed\x86-windows\share\;CMake Files\..\..\..\..\..\dev\vcpkg\installed\x86-windows\share\log4cplus\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/dusan/Desktop/Projects/MonteCarlo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\dusan\Desktop\Projects\MonteCarlo\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\dusan\Desktop\Projects\MonteCarlo\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\dusan\Desktop\Projects\MonteCarlo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\dusan\Desktop\Projects\MonteCarlo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MonteCarlo">
+				<Option output="C:/Users/dusan/Desktop/Projects/MonteCarlo/cmake-build-debug/MonteCarlo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/dusan/Desktop/Projects/MonteCarlo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/dev/vcpkg/packages/log4cplus_x86-windows/include"/>
+					<Add directory="C:/Users/dusan/Desktop/Projects/MonteCarlo/./inc"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\dusan\Desktop\Projects\MonteCarlo\cmake-build-debug\Makefile VERBOSE=1 MonteCarlo"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\dusan\Desktop\Projects\MonteCarlo\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\dusan\Desktop\Projects\MonteCarlo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\dusan\Desktop\Projects\MonteCarlo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MonteCarlo/fast">
+				<Option output="C:/Users/dusan/Desktop/Projects/MonteCarlo/cmake-build-debug/MonteCarlo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/dusan/Desktop/Projects/MonteCarlo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/dev/vcpkg/packages/log4cplus_x86-windows/include"/>
+					<Add directory="C:/Users/dusan/Desktop/Projects/MonteCarlo/./inc"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\dusan\Desktop\Projects\MonteCarlo\cmake-build-debug\Makefile VERBOSE=1 MonteCarlo/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\dusan\Desktop\Projects\MonteCarlo\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\dusan\Desktop\Projects\MonteCarlo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\dusan\Desktop\Projects\MonteCarlo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/dusan/Desktop/Projects/MonteCarlo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\dusan\Desktop\Projects\MonteCarlo\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\dusan\Desktop\Projects\MonteCarlo\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\dusan\Desktop\Projects\MonteCarlo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\dusan\Desktop\Projects\MonteCarlo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="C:/Users/dusan/Desktop/Projects/MonteCarlo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\dusan\Desktop\Projects\MonteCarlo\cmake-build-debug\Makefile VERBOSE=1 test"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\dusan\Desktop\Projects\MonteCarlo\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\dusan\Desktop\Projects\MonteCarlo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\dusan\Desktop\Projects\MonteCarlo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/dusan/Desktop/Projects/MonteCarlo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\dusan\Desktop\Projects\MonteCarlo\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\dusan\Desktop\Projects\MonteCarlo\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\dusan\Desktop\Projects\MonteCarlo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\dusan\Desktop\Projects\MonteCarlo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/Detector.h">
+			<Option target="MonteCarlo"/>
+		</Unit>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/Ellipsoid.h">
+			<Option target="MonteCarlo"/>
+		</Unit>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/GeometryUtils.h">
+			<Option target="MonteCarlo"/>
+		</Unit>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/Phantom.h">
+			<Option target="MonteCarlo"/>
+		</Unit>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/Photon.h">
+			<Option target="MonteCarlo"/>
+		</Unit>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/PhotonGenerator.h">
+			<Option target="MonteCarlo"/>
+		</Unit>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/Vector3D.h">
+			<Option target="MonteCarlo"/>
+		</Unit>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/main.h">
+			<Option target="MonteCarlo"/>
+		</Unit>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/stdinc.h">
+			<Option target="MonteCarlo"/>
+		</Unit>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/src/Detector.cpp">
+			<Option target="MonteCarlo"/>
+		</Unit>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/src/Ellipsoid.cpp">
+			<Option target="MonteCarlo"/>
+		</Unit>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/src/GeometryUtils.cpp">
+			<Option target="MonteCarlo"/>
+		</Unit>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/src/Phantom.cpp">
+			<Option target="MonteCarlo"/>
+		</Unit>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/src/Photon.cpp">
+			<Option target="MonteCarlo"/>
+		</Unit>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/src/PhotonGenerator.cpp">
+			<Option target="MonteCarlo"/>
+		</Unit>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/src/Vector3D.cpp">
+			<Option target="MonteCarlo"/>
+		</Unit>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/src/main.cpp">
+			<Option target="MonteCarlo"/>
+		</Unit>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/../../../../../dev/vcpkg/scripts/buildsystems/vcpkg.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\dev\vcpkg\scripts\buildsystems\"/>
+		</Unit>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/../../../../../dev/vcpkg/installed/x86-windows/share/log4cplus/log4cplusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\dev\vcpkg\installed\x86-windows\share\log4cplus\"/>
+		</Unit>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/../../../../../dev/vcpkg/installed/x86-windows/share/log4cplus/log4cplusConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\dev\vcpkg\installed\x86-windows\share\log4cplus\"/>
+		</Unit>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/../../../../../dev/vcpkg/installed/x86-windows/share/log4cplus/log4cplusTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\dev\vcpkg\installed\x86-windows\share\log4cplus\"/>
+		</Unit>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/../../../../../dev/vcpkg/installed/x86-windows/share/log4cplus/log4cplusTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\dev\vcpkg\installed\x86-windows\share\log4cplus\"/>
+		</Unit>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/../../../../../dev/vcpkg/installed/x86-windows/share/log4cplus/log4cplusTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\dev\vcpkg\installed\x86-windows\share\log4cplus\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
