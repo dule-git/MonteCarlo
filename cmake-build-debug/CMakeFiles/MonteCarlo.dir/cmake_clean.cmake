@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/MonteCarlo.dir/src/Ellipsoid.cpp.obj.d"
   "CMakeFiles/MonteCarlo.dir/src/GeometryUtils.cpp.obj"
   "CMakeFiles/MonteCarlo.dir/src/GeometryUtils.cpp.obj.d"
+  "CMakeFiles/MonteCarlo.dir/src/MiTableProvider.cpp.obj"
+  "CMakeFiles/MonteCarlo.dir/src/MiTableProvider.cpp.obj.d"
   "CMakeFiles/MonteCarlo.dir/src/Phantom.cpp.obj"
   "CMakeFiles/MonteCarlo.dir/src/Phantom.cpp.obj.d"
   "CMakeFiles/MonteCarlo.dir/src/Photon.cpp.obj"

@@ -7,35 +7,31 @@
 
 namespace geometry
 {
-    int Phantom::ID = 0;
-    
-    Phantom::Phantom(std::string loggerName, std::string miFileName):
-        id(++ID),
+    Phantom::Phantom(std::string id, MiTableProvider::MatterType matterType):
+        id(id),
         children(),
-        logger()
+        logger(log4cplus::Logger::getInstance(id)),
+        matterType(matterType)
     {
-        logger = log4cplus::Logger::getInstance(loggerName + std::to_string(id));
+    }
+    
+    void Phantom::GetIntersectionPoints(Vector3D positionVector, Vector3D directionVector,
+                                        MiTableProvider::MatterType matterFrom,
+                                        std::vector<GeometryUtils::IntersectionPoint> &intersectionPoints)
+    {
+        std::vector<Vector3D> isPoints = IntersectsLine(positionVector, directionVector);
         
-        std::fstream miFile;
-        miFile.open(miFileName, std::ios::in);
-        if (miFile.is_open())
+        std::vector<Vector3D> pointsInPath = GeometryUtils::GetPointsInPathOfSemiStraightLine(positionVector, directionVector, isPoints);
+        
+        if (pointsInPath.size() == 2)
         {
-            while (!miFile.eof())
-            {
-                std::vector<double> miTableRow(MI_TABLE_COLUMN_COUNT);
-                miFile >> miTableRow[PHOTON_ENERGY_INDEX];
-                miFile >> miTableRow[COHERENT_SCATTER_INDEX];
-                miFile >> miTableRow[INCOHERENT_SCATTER_INDEX];
-                miFile >> miTableRow[PHOTO_ELECTRIC_ABS_INDEX];
-                miFile >> miTableRow[TOTAL_WITH_COHERENT_INDEX];
-                
-                miTable.push_back(miTableRow);
-            }
-            LOG4CPLUS_INFO(logger, "Read Mi Table from file: " << miFileName);
+            intersectionPoints.emplace_back(pointsInPath[0], matterFrom, matterType);
+            intersectionPoints.emplace_back(pointsInPath[1], matterType, matterFrom);
         }
-        else
+        
+        for (Phantom* child : children)
         {
-            LOG4CPLUS_ERROR(logger, "Failed to open file: " << miFileName);
+            child->GetIntersectionPoints(positionVector, directionVector, matterType, intersectionPoints);
         }
     }
 }

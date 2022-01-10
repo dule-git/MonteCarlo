@@ -170,3 +170,5 @@ C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/Detector.h
 c:/users/dusan/desktop/projects/montecarlo/inc/Vector3D.h
 C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/Ellipsoid.h
 c:/users/dusan/desktop/projects/montecarlo/inc/Phantom.h
+c:/users/dusan/desktop/projects/montecarlo/inc/MiTableProvider.h
+c:/users/dusan/desktop/projects/montecarlo/inc/GeometryUtils.h

@@ -6,6 +6,7 @@
 #include "PhotonGenerator.h"
 #include "Detector.h"
 #include "Ellipsoid.h"
+#include "MiTableProvider.h"
 
 using namespace std;
 using namespace photon;
@@ -30,8 +31,11 @@ int main(int argc, char** argv)
     LOG4CPLUS_INFO(logger, "Total number of photons: " << arguments.TOTAL_NUM_OF_PHOTONS);
     LOG4CPLUS_INFO(logger, "Number of photons in parallel: " << arguments.NUM_OF_PARALLEL_PHOTONS);
     
+    MiTableProvider::LoadMiTables(vector<MiTableProvider::MiTableFileName>{
+        MiTableProvider::MiTableFileName("mi_attenuation_coeff_H2O.txt", MiTableProvider::MatterType::H20)
+    });
     Detector detector;
-    Ellipsoid ellipsoid(300,300,60, "mi_attenuation_coeff_H2O.txt");
+    Ellipsoid ellipsoid("EllipsoidBody",MiTableProvider::MatterType::H20,300,300,60);
     
     PhotonGenerator::TOTAL_NUM_OF_PHOTONS = arguments.TOTAL_NUM_OF_PHOTONS;
     PhotonGenerator::NUM_OF_PARALLEL_PHOTONS = arguments.NUM_OF_PARALLEL_PHOTONS;

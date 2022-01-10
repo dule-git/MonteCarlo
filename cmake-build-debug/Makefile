@@ -200,6 +200,30 @@ src\GeometryUtils.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MonteCarlo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MonteCarlo.dir\src\GeometryUtils.cpp.s
 .PHONY : src\GeometryUtils.cpp.s
 
+src\MiTableProvider.obj: src\MiTableProvider.cpp.obj
+.PHONY : src\MiTableProvider.obj
+
+# target to build an object file
+src\MiTableProvider.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MonteCarlo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MonteCarlo.dir\src\MiTableProvider.cpp.obj
+.PHONY : src\MiTableProvider.cpp.obj
+
+src\MiTableProvider.i: src\MiTableProvider.cpp.i
+.PHONY : src\MiTableProvider.i
+
+# target to preprocess a source file
+src\MiTableProvider.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MonteCarlo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MonteCarlo.dir\src\MiTableProvider.cpp.i
+.PHONY : src\MiTableProvider.cpp.i
+
+src\MiTableProvider.s: src\MiTableProvider.cpp.s
+.PHONY : src\MiTableProvider.s
+
+# target to generate assembly for a file
+src\MiTableProvider.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MonteCarlo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MonteCarlo.dir\src\MiTableProvider.cpp.s
+.PHONY : src\MiTableProvider.cpp.s
+
 src\Phantom.obj: src\Phantom.cpp.obj
 .PHONY : src\Phantom.obj
 
@@ -339,6 +363,9 @@ help:
 	@echo ... src/GeometryUtils.obj
 	@echo ... src/GeometryUtils.i
 	@echo ... src/GeometryUtils.s
+	@echo ... src/MiTableProvider.obj
+	@echo ... src/MiTableProvider.i
+	@echo ... src/MiTableProvider.s
 	@echo ... src/Phantom.obj
 	@echo ... src/Phantom.i
 	@echo ... src/Phantom.s

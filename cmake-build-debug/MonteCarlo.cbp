@@ -105,6 +105,9 @@
 		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/GeometryUtils.h">
 			<Option target="MonteCarlo"/>
 		</Unit>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/MiTableProvider.h">
+			<Option target="MonteCarlo"/>
+		</Unit>
 		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/Phantom.h">
 			<Option target="MonteCarlo"/>
 		</Unit>
@@ -130,6 +133,9 @@
 			<Option target="MonteCarlo"/>
 		</Unit>
 		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/src/GeometryUtils.cpp">
+			<Option target="MonteCarlo"/>
+		</Unit>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/src/MiTableProvider.cpp">
 			<Option target="MonteCarlo"/>
 		</Unit>
 		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/src/Phantom.cpp">

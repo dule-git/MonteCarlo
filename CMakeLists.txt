@@ -6,8 +6,8 @@ enable_testing()
 
 find_package(log4cplus REQUIRED)
 
-set(SOURCE_FILES "src/main.cpp" "src/PhotonGenerator.cpp" "src/Photon.cpp" "src/Vector3D.cpp" "src/GeometryUtils.cpp" "src/Detector.cpp" src/Phantom.cpp src/Ellipsoid.cpp)
-set(INCLUDE_FILES "inc/PhotonGenerator.h" "inc/Photon.h" "inc/stdinc.h" "inc/main.h" "inc/Vector3D.h" "inc/GeometryUtils.h" "inc/Detector.h" inc/Phantom.h inc/Ellipsoid.h)
+set(SOURCE_FILES "src/main.cpp" "src/PhotonGenerator.cpp" "src/Photon.cpp" "src/Vector3D.cpp" "src/GeometryUtils.cpp" "src/Detector.cpp" src/Phantom.cpp src/Ellipsoid.cpp src/MiTableProvider.cpp)
+set(INCLUDE_FILES "inc/PhotonGenerator.h" "inc/Photon.h" "inc/stdinc.h" "inc/main.h" "inc/Vector3D.h" "inc/GeometryUtils.h" "inc/Detector.h" inc/Phantom.h inc/Ellipsoid.h inc/MiTableProvider.h)
 
 add_executable(MonteCarlo ${SOURCE_FILES} ${INCLUDE_FILES})
 target_include_directories(MonteCarlo PUBLIC "C:/dev/vcpkg/packages/log4cplus_x86-windows/include")

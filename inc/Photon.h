@@ -7,8 +7,14 @@
 
 #include "stdinc.h"
 #include "Vector3D.h"
+#include "MiTableProvider.h"
 
 using namespace std;
+
+namespace geometry
+{
+    class Phantom;
+}
 
 namespace photon
 {
@@ -16,21 +22,26 @@ namespace photon
     {
     public:
         static int ID;
+        static constexpr double STARTING_PHOTON_ENERGY = 140000.0;
     public:
-        Photon();
+        Photon(geometry::Phantom& bodyPhantom);
         void Start();
         void Join();
         int GetId() const;
         geometry::Vector3D GetPositionVector();
         geometry::Vector3D GetDirectionVector();
+        void SetCurrentMatter(MiTableProvider::MatterType currentMatter);
     private:
         void photonProcedure();
         void initDirectionVector();
     private:
         int id;
+        geometry::Phantom& bodyPhantom;
         thread *photonThread;
         geometry::Vector3D positionVector;
         geometry::Vector3D directionVector;
+        double energy;
+        MiTableProvider::MatterType currentMatter;
     private:
         static log4cplus::Logger logger;
     };

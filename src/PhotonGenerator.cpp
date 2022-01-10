@@ -61,7 +61,7 @@ namespace photon
         
         while (true)
         {
-            photon = new Photon();
+            photon = new Photon(phantom);
             geometry::Vector3D photonPositionVector = photon->GetPositionVector();
             geometry::Vector3D photonDirectionVector = photon->GetDirectionVector();
     

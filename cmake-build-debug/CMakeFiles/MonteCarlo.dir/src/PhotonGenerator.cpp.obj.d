@@ -164,6 +164,7 @@ C:/dev/vcpkg/packages/log4cplus_x86-windows/include/log4cplus/tracelogger.h
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/sstream
 C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/Photon.h
 c:/users/dusan/desktop/projects/montecarlo/inc/Vector3D.h
+c:/users/dusan/desktop/projects/montecarlo/inc/MiTableProvider.h
 C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/Detector.h
 C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/GeometryUtils.h
 C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/Phantom.h

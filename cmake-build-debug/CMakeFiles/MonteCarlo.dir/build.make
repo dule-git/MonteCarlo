@@ -218,6 +218,26 @@ CMakeFiles\MonteCarlo.dir\src\Ellipsoid.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\MonteCarlo.dir\src\Ellipsoid.cpp.s /c C:\Users\dusan\Desktop\Projects\MonteCarlo\src\Ellipsoid.cpp
 <<
 
+CMakeFiles\MonteCarlo.dir\src\MiTableProvider.cpp.obj: CMakeFiles\MonteCarlo.dir\flags.make
+CMakeFiles\MonteCarlo.dir\src\MiTableProvider.cpp.obj: ..\src\MiTableProvider.cpp
+CMakeFiles\MonteCarlo.dir\src\MiTableProvider.cpp.obj: CMakeFiles\MonteCarlo.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dusan\Desktop\Projects\MonteCarlo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MonteCarlo.dir/src/MiTableProvider.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\MonteCarlo.dir\src\MiTableProvider.cpp.obj.d --working-dir=C:\Users\dusan\Desktop\Projects\MonteCarlo\cmake-build-debug --filter-prefix="Note: including file: " -- C:\PROGRA~2\MICROS~2\2017\ENTERP~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\MonteCarlo.dir\src\MiTableProvider.cpp.obj /FdCMakeFiles\MonteCarlo.dir\ /FS -c C:\Users\dusan\Desktop\Projects\MonteCarlo\src\MiTableProvider.cpp
+<<
+
+CMakeFiles\MonteCarlo.dir\src\MiTableProvider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MonteCarlo.dir/src/MiTableProvider.cpp.i"
+	C:\PROGRA~2\MICROS~2\2017\ENTERP~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\MonteCarlo.dir\src\MiTableProvider.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dusan\Desktop\Projects\MonteCarlo\src\MiTableProvider.cpp
+<<
+
+CMakeFiles\MonteCarlo.dir\src\MiTableProvider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MonteCarlo.dir/src/MiTableProvider.cpp.s"
+	C:\PROGRA~2\MICROS~2\2017\ENTERP~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\MonteCarlo.dir\src\MiTableProvider.cpp.s /c C:\Users\dusan\Desktop\Projects\MonteCarlo\src\MiTableProvider.cpp
+<<
+
 # Object files for target MonteCarlo
 MonteCarlo_OBJECTS = \
 "CMakeFiles\MonteCarlo.dir\src\main.cpp.obj" \
@@ -227,7 +247,8 @@ MonteCarlo_OBJECTS = \
 "CMakeFiles\MonteCarlo.dir\src\GeometryUtils.cpp.obj" \
 "CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj" \
 "CMakeFiles\MonteCarlo.dir\src\Phantom.cpp.obj" \
-"CMakeFiles\MonteCarlo.dir\src\Ellipsoid.cpp.obj"
+"CMakeFiles\MonteCarlo.dir\src\Ellipsoid.cpp.obj" \
+"CMakeFiles\MonteCarlo.dir\src\MiTableProvider.cpp.obj"
 
 # External object files for target MonteCarlo
 MonteCarlo_EXTERNAL_OBJECTS =
@@ -240,10 +261,11 @@ MonteCarlo.exe: CMakeFiles\MonteCarlo.dir\src\GeometryUtils.cpp.obj
 MonteCarlo.exe: CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj
 MonteCarlo.exe: CMakeFiles\MonteCarlo.dir\src\Phantom.cpp.obj
 MonteCarlo.exe: CMakeFiles\MonteCarlo.dir\src\Ellipsoid.cpp.obj
+MonteCarlo.exe: CMakeFiles\MonteCarlo.dir\src\MiTableProvider.cpp.obj
 MonteCarlo.exe: CMakeFiles\MonteCarlo.dir\build.make
 MonteCarlo.exe: C:\dev\vcpkg\packages\log4cplus_x86-windows\debug\lib\log4cplusD.lib
 MonteCarlo.exe: CMakeFiles\MonteCarlo.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\dusan\Desktop\Projects\MonteCarlo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable MonteCarlo.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\dusan\Desktop\Projects\MonteCarlo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable MonteCarlo.exe"
 	"C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\MonteCarlo.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2017\ENTERP~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\MonteCarlo.dir\objects1.rsp @<<
  /out:MonteCarlo.exe /implib:MonteCarlo.lib /pdb:C:\Users\dusan\Desktop\Projects\MonteCarlo\cmake-build-debug\MonteCarlo.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  C:\dev\vcpkg\packages\log4cplus_x86-windows\debug\lib\log4cplusD.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

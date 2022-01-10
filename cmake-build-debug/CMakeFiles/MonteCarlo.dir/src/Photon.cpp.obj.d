@@ -24,6 +24,8 @@ C:/Program Files (x86)/Windows Kits/10/include/10.0.17763.0/ucrt/corecrt_math.h
 C:/Program Files (x86)/Windows Kits/10/include/10.0.17763.0/ucrt/corecrt_math_defines.h
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/xtgmath.h
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/xtr1common
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/cstdint
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/stdint.h
 C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/Photon.h
 c:/users/dusan/desktop/projects/montecarlo/inc/stdinc.h
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/iostream
@@ -58,8 +60,6 @@ C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.
 C:/Program Files (x86)/Windows Kits/10/include/10.0.17763.0/ucrt/corecrt_terminate.h
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/xstring
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/xmemory0
-C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/cstdint
-C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/stdint.h
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/limits
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/ymath.h
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/cfloat
@@ -164,4 +164,7 @@ C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.
 C:/dev/vcpkg/packages/log4cplus_x86-windows/include/log4cplus/tracelogger.h
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/sstream
 c:/users/dusan/desktop/projects/montecarlo/inc/Vector3D.h
+c:/users/dusan/desktop/projects/montecarlo/inc/MiTableProvider.h
 C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/PhotonGenerator.h
+C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/GeometryUtils.h
+C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/Phantom.h
