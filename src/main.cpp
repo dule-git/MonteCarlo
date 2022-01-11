@@ -17,7 +17,7 @@ log4cplus::Logger logger;
 
 int main(int argc, char** argv)
 {
-    srand(time(0));
+    srand(time(NULL));
     
     ::log4cplus::initialize();
     ::log4cplus::PropertyConfigurator::doConfigure("log4cplus_configure.ini");

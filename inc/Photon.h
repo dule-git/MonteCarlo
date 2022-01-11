@@ -22,7 +22,7 @@ namespace photon
     {
     public:
         static int ID;
-        static constexpr double STARTING_PHOTON_ENERGY = 140000.0;
+        static constexpr double STARTING_PHOTON_ENERGY = 1.40e-1;
     public:
         Photon(geometry::Phantom& bodyPhantom);
         void Start();

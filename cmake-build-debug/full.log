@@ -641,3 +641,451 @@ Number of photons in parallel: 1
 [INFO][19:39:23:023][Main] Arguments parsed.
 [INFO][19:39:23:024][Main] Total number of photons: 10
 [INFO][19:39:23:024][Main] Number of photons in parallel: 1
+[INFO][20:47:42:413][Main] Arguments parsed.
+[INFO][20:47:42:417][Main] Total number of photons: 10
+[INFO][20:47:42:417][Main] Number of photons in parallel: 1
+[INFO][20:47:42:417][MiTableProvider] Loading mi tables...
+[INFO][20:47:42:418][MiTableProvider] Loading mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][20:47:42:425][MiTableProvider] Loaded mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][20:47:42:425][EllipsoidBody] Made an ellipsoid with id: EllipsoidBody
+[INFO][20:47:42:432][PhotonGenerator] Thread released.
+[INFO][20:47:42:432][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][20:47:42:433][PhotonGenerator] Procedure entered.
+[INFO][20:47:42:433][Photon] Creating a new photon with id: 0.
+[INFO][20:47:42:434][Photon] Initializing Omega vector...
+[INFO][20:47:42:434][Photon] Omega vector initialized.
+[DEBUG][20:51:49:800][PhotonGenerator] Created photon with id: 0 will hit the phantom.
+[INFO][20:52:09:627][Photon] Photon with id: 0 thread released.
+[INFO][20:53:03:460][Main] Arguments parsed.
+[INFO][20:53:03:462][Main] Total number of photons: 10
+[INFO][20:53:03:462][Main] Number of photons in parallel: 1
+[INFO][20:53:03:462][MiTableProvider] Loading mi tables...
+[INFO][20:53:03:462][MiTableProvider] Loading mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][20:53:03:467][MiTableProvider] Loaded mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][20:53:03:467][EllipsoidBody] Made an ellipsoid with id: EllipsoidBody
+[INFO][20:53:03:468][PhotonGenerator] Thread released.
+[INFO][20:53:03:468][PhotonGenerator] Procedure entered.
+[INFO][20:53:03:468][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][20:53:03:468][Photon] Creating a new photon with id: 0.
+[INFO][20:53:03:468][Photon] Initializing Omega vector...
+[INFO][20:53:03:469][Photon] Omega vector initialized.
+[DEBUG][20:53:54:879][PhotonGenerator] Created photon with id: 0 will hit the phantom.
+[INFO][20:54:00:941][Photon] Photon with id: 0 thread released.
+[INFO][20:54:00:996][Photon] Joining a photon with id: 0...
+[INFO][20:54:01:008][Photon] Photon with id: 0 procedure entered.
+[INFO][20:55:10:434][Main] Arguments parsed.
+[INFO][20:55:10:435][Main] Total number of photons: 10
+[INFO][20:55:10:436][Main] Number of photons in parallel: 1
+[INFO][20:55:10:436][MiTableProvider] Loading mi tables...
+[INFO][20:55:10:436][MiTableProvider] Loading mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][20:55:10:440][MiTableProvider] Loaded mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][20:55:10:440][EllipsoidBody] Made an ellipsoid with id: EllipsoidBody
+[INFO][20:55:10:441][PhotonGenerator] Thread released.
+[INFO][20:55:10:441][PhotonGenerator] Procedure entered.
+[INFO][20:55:10:441][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][20:55:10:441][Photon] Creating a new photon with id: 0.
+[INFO][20:55:10:441][Photon] Initializing Omega vector...
+[INFO][20:55:10:441][Photon] Omega vector initialized.
+[DEBUG][20:55:10:441][PhotonGenerator] Created photon with id: 0 will hit the phantom.
+[INFO][20:55:13:756][Photon] Photon with id: 0 thread released.
+[INFO][20:55:13:756][Photon] Joining a photon with id: 0...
+[INFO][20:55:13:857][Photon] Photon with id: 0 procedure entered.
+[INFO][20:55:53:785][Main] Arguments parsed.
+[INFO][20:55:53:786][Main] Total number of photons: 10
+[INFO][20:55:53:786][Main] Number of photons in parallel: 1
+[INFO][20:55:53:786][MiTableProvider] Loading mi tables...
+[INFO][20:55:53:786][MiTableProvider] Loading mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][20:55:53:790][MiTableProvider] Loaded mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][20:55:53:791][EllipsoidBody] Made an ellipsoid with id: EllipsoidBody
+[INFO][20:55:53:791][PhotonGenerator] Thread released.
+[INFO][20:55:53:791][PhotonGenerator] Procedure entered.
+[INFO][20:55:53:791][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][20:55:53:791][Photon] Creating a new photon with id: 0.
+[INFO][20:55:53:791][Photon] Initializing Omega vector...
+[INFO][20:55:53:792][Photon] Omega vector initialized.
+[DEBUG][20:55:53:792][PhotonGenerator] Created photon with id: 0 will hit the phantom.
+[INFO][20:55:57:557][Photon] Photon with id: 0 thread released.
+[INFO][20:55:57:612][Photon] Photon with id: 0 procedure entered.
+[INFO][20:55:57:612][Photon] Joining a photon with id: 0...
+[INFO][20:58:04:480][Main] Arguments parsed.
+[INFO][20:58:04:481][Main] Total number of photons: 10
+[INFO][20:58:04:481][Main] Number of photons in parallel: 1
+[INFO][20:58:04:481][MiTableProvider] Loading mi tables...
+[INFO][20:58:04:482][MiTableProvider] Loading mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][20:58:04:485][MiTableProvider] Loaded mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][20:58:04:485][EllipsoidBody] Made an ellipsoid with id: EllipsoidBody
+[INFO][20:58:04:486][PhotonGenerator] Thread released.
+[INFO][20:58:04:486][PhotonGenerator] Procedure entered.
+[INFO][20:58:04:486][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][20:58:04:487][Photon] Creating a new photon with id: 0.
+[INFO][20:58:04:487][Photon] Initializing Omega vector...
+[INFO][20:58:04:487][Photon] Omega vector initialized.
+[DEBUG][20:58:04:487][PhotonGenerator] Created photon with id: 0 will hit the phantom.
+[INFO][20:58:07:605][Photon] Photon with id: 0 thread released.
+[INFO][20:58:07:649][Photon] Joining a photon with id: 0...
+[INFO][20:58:07:769][Photon] Photon with id: 0 procedure entered.
+[INFO][20:58:58:924][Main] Arguments parsed.
+[INFO][20:58:58:925][Main] Total number of photons: 10
+[INFO][20:58:58:925][Main] Number of photons in parallel: 1
+[INFO][20:58:58:925][MiTableProvider] Loading mi tables...
+[INFO][20:58:58:925][MiTableProvider] Loading mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][20:58:58:929][MiTableProvider] Loaded mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][20:58:58:929][EllipsoidBody] Made an ellipsoid with id: EllipsoidBody
+[INFO][20:58:58:930][PhotonGenerator] Procedure entered.
+[INFO][20:58:58:930][Photon] Creating a new photon with id: 0.
+[INFO][20:58:58:930][Photon] Initializing Omega vector...
+[INFO][20:58:58:930][Photon] Omega vector initialized.
+[DEBUG][20:58:58:930][PhotonGenerator] Created photon with id: 0 will hit the phantom.
+[INFO][20:58:58:930][PhotonGenerator] Thread released.
+[INFO][20:58:58:930][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][20:58:58:930][Photon] Photon with id: 0 thread released.
+[INFO][20:58:58:930][Photon] Joining a photon with id: 0...
+[INFO][20:58:58:930][Photon] Photon with id: 0 procedure entered.
+[INFO][20:59:47:408][Main] Arguments parsed.
+[INFO][20:59:47:409][Main] Total number of photons: 10
+[INFO][20:59:47:410][Main] Number of photons in parallel: 1
+[INFO][20:59:47:410][MiTableProvider] Loading mi tables...
+[INFO][20:59:47:410][MiTableProvider] Loading mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][20:59:47:414][MiTableProvider] Loaded mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][20:59:47:415][EllipsoidBody] Made an ellipsoid with id: EllipsoidBody
+[INFO][20:59:47:416][PhotonGenerator] Thread released.
+[INFO][20:59:47:416][PhotonGenerator] Procedure entered.
+[INFO][20:59:47:416][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][20:59:47:416][Photon] Creating a new photon with id: 0.
+[INFO][20:59:47:416][Photon] Initializing Omega vector...
+[INFO][20:59:47:417][Photon] Omega vector initialized.
+[DEBUG][20:59:47:417][PhotonGenerator] Created photon with id: 0 will hit the phantom.
+[INFO][20:59:47:418][Photon] Photon with id: 0 thread released.
+[INFO][20:59:47:418][Photon] Photon with id: 0 procedure entered.
+[INFO][20:59:55:986][Photon] Joining a photon with id: 0...
+[INFO][21:00:44:980][Main] Arguments parsed.
+[INFO][21:00:44:982][Main] Total number of photons: 10
+[INFO][21:00:44:982][Main] Number of photons in parallel: 1
+[INFO][21:00:44:982][MiTableProvider] Loading mi tables...
+[INFO][21:00:44:982][MiTableProvider] Loading mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:00:44:989][MiTableProvider] Loaded mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:00:44:989][EllipsoidBody] Made an ellipsoid with id: EllipsoidBody
+[INFO][21:00:44:991][PhotonGenerator] Thread released.
+[INFO][21:00:44:991][PhotonGenerator] Procedure entered.
+[INFO][21:00:44:991][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][21:00:44:991][Photon] Creating a new photon with id: 0.
+[INFO][21:00:44:991][Photon] Initializing Omega vector...
+[INFO][21:00:44:991][Photon] Omega vector initialized.
+[DEBUG][21:00:44:992][PhotonGenerator] Created photon with id: 0 will hit the phantom.
+[INFO][21:00:44:994][Photon] Photon with id: 0 procedure entered.
+[INFO][21:00:44:994][Photon] Photon with id: 0 thread released.
+[INFO][21:06:59:052][Photon] Joining a photon with id: 0...
+[INFO][21:07:11:764][Main] Arguments parsed.
+[INFO][21:07:11:766][Main] Total number of photons: 10
+[INFO][21:07:11:766][Main] Number of photons in parallel: 1
+[INFO][21:07:11:766][MiTableProvider] Loading mi tables...
+[INFO][21:07:11:766][MiTableProvider] Loading mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:07:11:772][MiTableProvider] Loaded mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:07:11:773][EllipsoidBody] Made an ellipsoid with id: EllipsoidBody
+[INFO][21:07:11:773][PhotonGenerator] Thread released.
+[INFO][21:07:11:773][PhotonGenerator] Procedure entered.
+[INFO][21:07:11:774][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][21:07:11:774][Photon] Creating a new photon with id: 0.
+[INFO][21:07:11:774][Photon] Initializing Omega vector...
+[INFO][21:07:11:774][Photon] Omega vector initialized.
+[DEBUG][21:07:11:774][PhotonGenerator] Created photon with id: 0 will hit the phantom.
+[INFO][21:07:11:775][Photon] Photon with id: 0 thread released.
+[INFO][21:07:11:775][Photon] Photon with id: 0 procedure entered.
+[INFO][21:07:11:775][Photon] Joining a photon with id: 0...
+[INFO][21:15:18:331][Main] Arguments parsed.
+[INFO][21:15:18:335][Main] Total number of photons: 10
+[INFO][21:15:18:335][Main] Number of photons in parallel: 1
+[INFO][21:15:18:335][MiTableProvider] Loading mi tables...
+[INFO][21:15:18:335][MiTableProvider] Loading mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:15:18:340][MiTableProvider] Loaded mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:15:18:340][EllipsoidBody] Made an ellipsoid with id: EllipsoidBody
+[INFO][21:15:18:341][PhotonGenerator] Thread released.
+[INFO][21:15:18:341][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][21:15:18:341][PhotonGenerator] Procedure entered.
+[INFO][21:15:18:341][Photon] Creating a new photon with id: 0.
+[INFO][21:15:18:341][Photon] Initializing Omega vector...
+[INFO][21:15:18:342][Photon] Omega vector initialized.
+[DEBUG][21:15:18:342][PhotonGenerator] Created photon with id: 0 will hit the phantom.
+[INFO][21:15:18:343][Photon] Photon with id: 0 thread released.
+[INFO][21:15:18:343][Photon] Joining a photon with id: 0...
+[INFO][21:15:18:343][Photon] Photon with id: 0 procedure entered.
+[INFO][21:15:40:596][Main] Arguments parsed.
+[INFO][21:15:40:597][Main] Total number of photons: 10
+[INFO][21:15:40:598][Main] Number of photons in parallel: 1
+[INFO][21:15:40:598][MiTableProvider] Loading mi tables...
+[INFO][21:15:40:598][MiTableProvider] Loading mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:15:40:604][MiTableProvider] Loaded mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:15:40:605][EllipsoidBody] Made an ellipsoid with id: EllipsoidBody
+[INFO][21:15:40:606][PhotonGenerator] Thread released.
+[INFO][21:15:40:606][PhotonGenerator] Procedure entered.
+[INFO][21:15:40:606][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][21:15:40:607][Photon] Creating a new photon with id: 0.
+[INFO][21:15:40:607][Photon] Initializing Omega vector...
+[INFO][21:15:40:607][Photon] Omega vector initialized.
+[DEBUG][21:15:40:607][PhotonGenerator] Created photon with id: 0 will hit the phantom.
+[INFO][21:15:40:609][Photon] Photon with id: 0 thread released.
+[INFO][21:15:40:609][Photon] Photon with id: 0 procedure entered.
+[INFO][21:15:40:609][Photon] Joining a photon with id: 0...
+[INFO][21:23:37:643][Main] Arguments parsed.
+[INFO][21:23:37:647][Main] Total number of photons: 10
+[INFO][21:23:37:647][Main] Number of photons in parallel: 1
+[INFO][21:23:37:647][MiTableProvider] Loading mi tables...
+[INFO][21:23:37:647][MiTableProvider] Loading mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:23:37:652][MiTableProvider] Loaded mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:23:37:652][EllipsoidBody] Made an ellipsoid with id: EllipsoidBody
+[INFO][21:23:37:653][PhotonGenerator] Thread released.
+[INFO][21:23:37:653][PhotonGenerator] Procedure entered.
+[INFO][21:23:37:653][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][21:23:37:653][Photon] Creating a new photon with id: 0.
+[INFO][21:23:37:653][Photon] Initializing Omega vector...
+[INFO][21:23:37:653][Photon] Omega vector initialized.
+[DEBUG][21:23:37:653][PhotonGenerator] Created photon with id: 0 will hit the phantom.
+[INFO][21:23:37:655][Photon] Photon with id: 0 procedure entered.
+[INFO][21:23:37:655][Photon] Photon with id: 0 thread released.
+[INFO][21:23:50:133][Photon] Joining a photon with id: 0...
+[INFO][21:24:01:790][Main] Arguments parsed.
+[INFO][21:24:01:792][Main] Total number of photons: 10
+[INFO][21:24:01:792][Main] Number of photons in parallel: 1
+[INFO][21:24:01:792][MiTableProvider] Loading mi tables...
+[INFO][21:24:01:792][MiTableProvider] Loading mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:24:01:797][MiTableProvider] Loaded mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:24:01:798][EllipsoidBody] Made an ellipsoid with id: EllipsoidBody
+[INFO][21:24:01:799][PhotonGenerator] Thread released.
+[INFO][21:24:01:799][PhotonGenerator] Procedure entered.
+[INFO][21:24:01:799][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][21:24:01:799][Photon] Creating a new photon with id: 0.
+[INFO][21:24:01:799][Photon] Initializing Omega vector...
+[INFO][21:24:01:800][Photon] Omega vector initialized.
+[DEBUG][21:24:01:800][PhotonGenerator] Created photon with id: 0 will hit the phantom.
+[INFO][21:24:01:801][Photon] Photon with id: 0 thread released.
+[INFO][21:24:01:801][Photon] Photon with id: 0 procedure entered.
+[INFO][21:24:01:801][Photon] Joining a photon with id: 0...
+[INFO][21:24:24:358][Main] Arguments parsed.
+[INFO][21:24:24:359][Main] Total number of photons: 10
+[INFO][21:24:24:359][Main] Number of photons in parallel: 1
+[INFO][21:24:24:359][MiTableProvider] Loading mi tables...
+[INFO][21:24:24:359][MiTableProvider] Loading mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:24:24:362][MiTableProvider] Loaded mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:24:24:363][EllipsoidBody] Made an ellipsoid with id: EllipsoidBody
+[INFO][21:24:24:363][PhotonGenerator] Thread released.
+[INFO][21:24:24:363][PhotonGenerator] Procedure entered.
+[INFO][21:24:24:363][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][21:24:24:363][Photon] Creating a new photon with id: 0.
+[INFO][21:24:24:363][Photon] Initializing Omega vector...
+[INFO][21:24:24:363][Photon] Omega vector initialized.
+[DEBUG][21:24:24:363][PhotonGenerator] Created photon with id: 0 will hit the phantom.
+[INFO][21:24:24:364][Photon] Photon with id: 0 thread released.
+[INFO][21:24:24:364][Photon] Photon with id: 0 procedure entered.
+[INFO][21:24:24:364][Photon] Joining a photon with id: 0...
+[INFO][21:26:52:802][Main] Arguments parsed.
+[INFO][21:26:52:803][Main] Total number of photons: 10
+[INFO][21:26:52:803][Main] Number of photons in parallel: 1
+[INFO][21:26:52:804][MiTableProvider] Loading mi tables...
+[INFO][21:26:52:804][MiTableProvider] Loading mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:26:52:809][MiTableProvider] Loaded mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:26:52:809][EllipsoidBody] Made an ellipsoid with id: EllipsoidBody
+[INFO][21:26:52:810][PhotonGenerator] Thread released.
+[INFO][21:26:52:810][PhotonGenerator] Procedure entered.
+[INFO][21:26:52:810][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][21:26:52:810][Photon] Creating a new photon with id: 0.
+[INFO][21:26:52:810][Photon] Initializing Omega vector...
+[INFO][21:26:52:811][Photon] Omega vector initialized.
+[DEBUG][21:26:52:811][PhotonGenerator] Created photon with id: 0 will hit the phantom.
+[INFO][21:26:52:812][Photon] Photon with id: 0 thread released.
+[INFO][21:26:52:812][Photon] Photon with id: 0 procedure entered.
+[INFO][21:26:52:812][Photon] Joining a photon with id: 0...
+[INFO][21:28:00:142][Main] Arguments parsed.
+[INFO][21:28:00:143][Main] Total number of photons: 10
+[INFO][21:28:00:143][Main] Number of photons in parallel: 1
+[INFO][21:28:00:143][MiTableProvider] Loading mi tables...
+[INFO][21:28:00:144][MiTableProvider] Loading mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:28:00:148][MiTableProvider] Loaded mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:28:00:148][EllipsoidBody] Made an ellipsoid with id: EllipsoidBody
+[INFO][21:28:00:148][PhotonGenerator] Thread released.
+[INFO][21:28:00:148][PhotonGenerator] Procedure entered.
+[INFO][21:28:00:149][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][21:28:00:149][Photon] Creating a new photon with id: 0.
+[INFO][21:28:00:149][Photon] Initializing Omega vector...
+[INFO][21:28:00:149][Photon] Omega vector initialized.
+[DEBUG][21:28:00:149][PhotonGenerator] Created photon with id: 0 will hit the phantom.
+[INFO][21:28:00:149][Photon] Photon with id: 0 thread released.
+[INFO][21:28:00:149][Photon] Photon with id: 0 procedure entered.
+[INFO][21:28:00:150][Photon] Joining a photon with id: 0...
+[INFO][21:28:50:946][Main] Arguments parsed.
+[INFO][21:28:50:947][Main] Total number of photons: 10
+[INFO][21:28:50:947][Main] Number of photons in parallel: 1
+[INFO][21:28:50:947][MiTableProvider] Loading mi tables...
+[INFO][21:28:50:947][MiTableProvider] Loading mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:28:50:951][MiTableProvider] Loaded mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:28:50:951][EllipsoidBody] Made an ellipsoid with id: EllipsoidBody
+[INFO][21:28:50:951][PhotonGenerator] Thread released.
+[INFO][21:28:50:951][PhotonGenerator] Procedure entered.
+[INFO][21:28:50:951][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][21:28:50:951][Photon] Creating a new photon with id: 0.
+[INFO][21:28:50:952][Photon] Initializing Omega vector...
+[INFO][21:28:50:952][Photon] Omega vector initialized.
+[DEBUG][21:28:50:952][PhotonGenerator] Created photon with id: 0 will hit the phantom.
+[INFO][21:28:50:952][Photon] Photon with id: 0 thread released.
+[INFO][21:28:50:952][Photon] Joining a photon with id: 0...
+[INFO][21:28:50:952][Photon] Photon with id: 0 procedure entered.
+[INFO][21:32:33:617][Main] Arguments parsed.
+[INFO][21:32:33:620][Main] Total number of photons: 10
+[INFO][21:32:33:620][Main] Number of photons in parallel: 1
+[INFO][21:32:33:620][MiTableProvider] Loading mi tables...
+[INFO][21:32:33:620][MiTableProvider] Loading mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:32:33:625][MiTableProvider] Loaded mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:32:33:625][EllipsoidBody] Made an ellipsoid with id: EllipsoidBody
+[INFO][21:32:33:626][PhotonGenerator] Procedure entered.
+[INFO][21:32:33:626][PhotonGenerator] Thread released.
+[INFO][21:32:33:626][Photon] Creating a new photon with id: 0.
+[INFO][21:32:33:626][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][21:32:33:626][Photon] Initializing Omega vector...
+[INFO][21:32:33:627][Photon] Omega vector initialized.
+[DEBUG][21:32:33:627][PhotonGenerator] Created photon with id: 0 will hit the phantom.
+[INFO][21:32:33:628][Photon] Photon with id: 0 thread released.
+[INFO][21:32:33:628][Photon] Photon with id: 0 procedure entered.
+[INFO][21:34:30:482][Main] Arguments parsed.
+[INFO][21:34:30:482][Main] Total number of photons: 10
+[INFO][21:34:30:483][Main] Number of photons in parallel: 1
+[INFO][21:34:30:483][MiTableProvider] Loading mi tables...
+[INFO][21:34:30:483][MiTableProvider] Loading mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:34:30:486][MiTableProvider] Loaded mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:34:30:486][EllipsoidBody] Made an ellipsoid with id: EllipsoidBody
+[INFO][21:34:30:488][PhotonGenerator] Thread released.
+[INFO][21:34:30:488][PhotonGenerator] Procedure entered.
+[INFO][21:34:30:488][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][21:34:30:488][Photon] Creating a new photon with id: 0.
+[INFO][21:34:30:488][Photon] Initializing Omega vector...
+[INFO][21:34:30:488][Photon] Omega vector initialized.
+[DEBUG][21:34:30:489][PhotonGenerator] Created photon with id: 0 will hit the phantom.
+[INFO][21:34:30:490][Photon] Photon with id: 0 thread released.
+[INFO][21:34:30:490][Photon] Joining a photon with id: 0...
+[INFO][21:34:30:490][Photon] Photon with id: 0 procedure entered.
+[INFO][21:35:05:667][Main] Arguments parsed.
+[INFO][21:35:05:668][Main] Total number of photons: 10
+[INFO][21:35:05:668][Main] Number of photons in parallel: 1
+[INFO][21:35:05:668][MiTableProvider] Loading mi tables...
+[INFO][21:35:05:668][MiTableProvider] Loading mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:35:05:672][MiTableProvider] Loaded mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:35:05:672][EllipsoidBody] Made an ellipsoid with id: EllipsoidBody
+[INFO][21:35:05:673][PhotonGenerator] Procedure entered.
+[INFO][21:35:05:673][Photon] Creating a new photon with id: 0.
+[INFO][21:35:05:673][Photon] Initializing Omega vector...
+[INFO][21:35:05:673][Photon] Omega vector initialized.
+[DEBUG][21:35:05:673][PhotonGenerator] Created photon with id: 0 will hit the phantom.
+[INFO][21:35:05:673][PhotonGenerator] Thread released.
+[INFO][21:35:05:674][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][21:35:05:675][Photon] Photon with id: 0 thread released.
+[INFO][21:35:05:675][Photon] Photon with id: 0 procedure entered.
+[INFO][21:38:32:661][Main] Arguments parsed.
+[INFO][21:38:32:662][Main] Total number of photons: 10
+[INFO][21:38:32:662][Main] Number of photons in parallel: 1
+[INFO][21:38:32:662][MiTableProvider] Loading mi tables...
+[INFO][21:38:32:663][MiTableProvider] Loading mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:38:32:671][MiTableProvider] Loaded mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:38:32:672][EllipsoidBody] Made an ellipsoid with id: EllipsoidBody
+[INFO][21:38:32:673][PhotonGenerator] Procedure entered.
+[INFO][21:38:32:673][PhotonGenerator] Thread released.
+[INFO][21:38:32:673][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][21:38:32:673][Photon] Creating a new photon with id: 0.
+[INFO][21:38:32:674][Photon] Initializing Omega vector...
+[INFO][21:38:32:674][Photon] Omega vector initialized.
+[DEBUG][21:38:32:674][PhotonGenerator] Created photon with id: 0 will hit the phantom.
+[INFO][21:38:32:676][Photon] Photon with id: 0 procedure entered.
+[INFO][21:42:56:946][Main] Arguments parsed.
+[INFO][21:42:56:947][Main] Total number of photons: 10
+[INFO][21:42:56:947][Main] Number of photons in parallel: 1
+[INFO][21:42:56:947][MiTableProvider] Loading mi tables...
+[INFO][21:42:56:948][MiTableProvider] Loading mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:42:56:952][MiTableProvider] Loaded mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:42:56:952][EllipsoidBody] Made an ellipsoid with id: EllipsoidBody
+[INFO][21:42:56:954][PhotonGenerator] Thread released.
+[INFO][21:42:56:954][PhotonGenerator] Procedure entered.
+[INFO][21:42:56:954][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][21:42:56:954][Photon] Creating a new photon with id: 0.
+[INFO][21:42:56:954][Photon] Initializing Omega vector...
+[INFO][21:42:56:954][Photon] Omega vector initialized.
+[DEBUG][21:42:56:955][PhotonGenerator] Created photon with id: 0 will hit the phantom.
+[INFO][21:42:56:956][Photon] Photon with id: 0 thread released.
+[INFO][21:42:56:956][Photon] Photon with id: 0 procedure entered.
+[INFO][21:44:03:391][Main] Arguments parsed.
+[INFO][21:44:03:392][Main] Total number of photons: 10
+[INFO][21:44:03:392][Main] Number of photons in parallel: 1
+[INFO][21:44:03:392][MiTableProvider] Loading mi tables...
+[INFO][21:44:03:392][MiTableProvider] Loading mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:44:03:396][MiTableProvider] Loaded mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:44:03:396][EllipsoidBody] Made an ellipsoid with id: EllipsoidBody
+[INFO][21:44:03:397][PhotonGenerator] Thread released.
+[INFO][21:44:03:397][PhotonGenerator] Procedure entered.
+[INFO][21:44:03:398][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][21:44:03:398][Photon] Creating a new photon with id: 0.
+[INFO][21:44:03:398][Photon] Initializing Omega vector...
+[INFO][21:44:03:398][Photon] Omega vector initialized.
+[DEBUG][21:44:03:398][PhotonGenerator] Created photon with id: 0 will hit the phantom.
+[INFO][21:44:03:400][Photon] Photon with id: 0 procedure entered.
+[INFO][21:45:19:676][Main] Arguments parsed.
+[INFO][21:45:19:678][Main] Total number of photons: 10
+[INFO][21:45:19:678][Main] Number of photons in parallel: 1
+[INFO][21:45:19:678][MiTableProvider] Loading mi tables...
+[INFO][21:45:19:678][MiTableProvider] Loading mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:45:19:684][MiTableProvider] Loaded mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:45:19:684][EllipsoidBody] Made an ellipsoid with id: EllipsoidBody
+[INFO][21:45:19:687][PhotonGenerator] Thread released.
+[INFO][21:45:19:687][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][21:45:19:687][PhotonGenerator] Procedure entered.
+[INFO][21:45:19:688][Photon] Creating a new photon with id: 0.
+[INFO][21:45:19:688][Photon] Initializing Omega vector...
+[INFO][21:45:19:688][Photon] Omega vector initialized.
+[DEBUG][21:45:19:688][PhotonGenerator] Created photon with id: 0 will hit the phantom.
+[INFO][21:45:19:695][Photon] Photon with id: 0 procedure entered.
+[INFO][21:46:40:631][Main] Arguments parsed.
+[INFO][21:46:40:632][Main] Total number of photons: 10
+[INFO][21:46:40:632][Main] Number of photons in parallel: 1
+[INFO][21:46:40:632][MiTableProvider] Loading mi tables...
+[INFO][21:46:40:632][MiTableProvider] Loading mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:46:40:638][MiTableProvider] Loaded mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][21:46:40:638][EllipsoidBody] Made an ellipsoid with id: EllipsoidBody
+[INFO][21:46:40:639][PhotonGenerator] Thread released.
+[INFO][21:46:40:639][PhotonGenerator] Procedure entered.
+[INFO][21:46:40:639][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][21:46:40:639][Photon] Creating a new photon with id: 0.
+[INFO][21:46:40:640][Photon] Initializing Omega vector...
+[INFO][21:46:40:640][Photon] Omega vector initialized.
+[DEBUG][21:46:40:640][PhotonGenerator] Created photon with id: 0 will hit the phantom.
+[INFO][21:46:40:641][Photon] Photon with id: 0 thread released.
+[INFO][21:46:40:641][Photon] Photon with id: 0 procedure entered.
+[INFO][21:46:40:641][Photon] Joining a photon with id: 0...
+[INFO][22:03:16:155][Main] Arguments parsed.
+[INFO][22:03:16:159][Main] Total number of photons: 10
+[INFO][22:03:16:159][Main] Number of photons in parallel: 1
+[INFO][22:03:16:160][MiTableProvider] Loading mi tables...
+[INFO][22:03:16:160][MiTableProvider] Loading mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][22:03:16:165][MiTableProvider] Loaded mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][22:03:16:165][EllipsoidBody] Made an ellipsoid with id: EllipsoidBody
+[INFO][22:03:16:166][PhotonGenerator] Thread released.
+[INFO][22:03:16:166][PhotonGenerator] Procedure entered.
+[INFO][22:03:16:167][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][22:03:16:167][Photon] Creating a new photon with id: 0.
+[INFO][22:03:16:167][Photon] Initializing Omega vector...
+[INFO][22:03:16:167][Photon] Omega vector initialized.
+[DEBUG][22:03:16:167][PhotonGenerator] Created photon with id: 0 will hit the phantom.
+[INFO][22:03:16:169][Photon] Photon with id: 0 thread released.
+[INFO][22:03:16:169][Photon] Photon with id: 0 procedure entered.
+[INFO][22:03:16:169][Photon] Joining a photon with id: 0...
+[INFO][22:03:48:808][Main] Arguments parsed.
+[INFO][22:03:48:809][Main] Total number of photons: 10
+[INFO][22:03:48:809][Main] Number of photons in parallel: 1
+[INFO][22:03:48:809][MiTableProvider] Loading mi tables...
+[INFO][22:03:48:809][MiTableProvider] Loading mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][22:03:48:813][MiTableProvider] Loaded mi table from file: mi_attenuation_coeff_H2O.txt
+[INFO][22:03:48:813][EllipsoidBody] Made an ellipsoid with id: EllipsoidBody
+[INFO][22:03:48:814][PhotonGenerator] Thread released.
+[INFO][22:03:48:814][PhotonGenerator] Procedure entered.
+[INFO][22:03:48:814][PhotonGenerator] Joining PhotonGenerator thread...
+[INFO][22:03:48:814][Photon] Creating a new photon with id: 0.
+[INFO][22:03:48:815][Photon] Initializing Omega vector...
+[INFO][22:03:48:815][Photon] Omega vector initialized.
+[DEBUG][22:03:48:815][PhotonGenerator] Created photon with id: 0 will hit the phantom.
+[INFO][22:03:48:817][Photon] Photon with id: 0 thread released.
+[INFO][22:03:48:817][Photon] Photon with id: 0 procedure entered.
+[INFO][22:03:48:817][Photon] Joining a photon with id: 0...

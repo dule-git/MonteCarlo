@@ -73,27 +73,36 @@ namespace photon
         while (running)
         {
             double s = 0;
+            double tau = -log(1 - random()) * 100;
             std::vector<double> miFactors;
-            double tau = -log(1-random());
+            std::vector<double> mis;
             std::vector<geometry::GeometryUtils::IntersectionPoint> intersectionPoints;
+            
             bodyPhantom.GetIntersectionPoints(positionVector, directionVector, currentMatter, intersectionPoints);
-            // sort intersection points
             for (int i = 0; i < intersectionPoints.size() - 1; i++)
             {
                 if (intersectionPoints[i].matterFrom == MiTableProvider::VACUM)
                 {
                     s += geometry::GeometryUtils::Distance(positionVector, intersectionPoints[i].point);
                 }
+
                 double s_i = geometry::GeometryUtils::Distance(intersectionPoints[i].point, intersectionPoints[i+1].point);
                 double mi = MiTableProvider::GetMi(energy, intersectionPoints[i].matterTo, MiTableProvider::MiTableColumnIndex::TOTAL_WITH_COHERENT_INDEX);
-                
+
+                mis.push_back(mi);
                 miFactors.push_back(s_i * mi);
+
                 if (vector_sum(miFactors) >= tau)
                 {
-                
+                    std::vector<double> miFactorsPrim(miFactors.size() - 1);
+                    copy(miFactors.begin(), miFactors.end() - 1, miFactorsPrim.begin());
+
+                    double sumMiFactorsPrim = vector_sum(miFactorsPrim);
+                    s += (tau - sumMiFactorsPrim) / mis[mis.size() - 1];
+
+                    running = false;
                 }
             }
-            running=false;
         }
     }
     

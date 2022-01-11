@@ -44,19 +44,23 @@ void MiTableProvider::readMiTableFromFile(MiTableFileName miTableFileName)
 
 double MiTableProvider::GetMi(double energy, MiTableProvider::MatterType matter, MiTableColumnIndex columnIndex)
 {
-    uint32_t rowIndex = miTables[matter].size() / 2;
+    uint32_t rowIndexLow = 0;
+    uint32_t rowIndexHigh = miTables[matter].size();
+    uint32_t rowIndex = (rowIndexLow + rowIndexHigh) / 2;
+    
     while (true)
     {
         if (energy >= miTables[matter][rowIndex][PHOTON_ENERGY_INDEX] && energy <= miTables[matter][rowIndex+1][PHOTON_ENERGY_INDEX])
             return miTables[matter][rowIndex][columnIndex];
         else if (energy <= miTables[matter][rowIndex][PHOTON_ENERGY_INDEX])
         {
-            rowIndex /= 2;
+            rowIndexHigh = rowIndex;
         }
         else
         {
-            rowIndex = (rowIndex + miTables[matter].size()) / 2;
+            rowIndexLow = rowIndex;
         }
+        rowIndex = (rowIndexLow + rowIndexHigh) / 2;
     }
 }
 
