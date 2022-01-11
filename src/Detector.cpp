@@ -3,6 +3,7 @@
 //
 
 #include "Detector.h"
+#include "GeometryUtils.h"
 
 namespace detector
 {
@@ -33,6 +34,20 @@ namespace detector
             return false;
         
         return true;
+    }
+    
+    void Detector::IncrementDexelIfShot(geometry::Vector3D photonPositionVector, geometry::Vector3D photonDirectionVector)
+    {
+        geometry::Vector3D intersectionPoint = geometry::GeometryUtils::LineThroughPlaneIntersectPoint(photonDirectionVector, photonPositionVector, perpendicularVector, positionVector);
+        if (Contains(intersectionPoint))
+        {
+            incrementDexel(intersectionPoint);
+        }
+    }
+    
+    void Detector::incrementDexel(geometry::Vector3D intersectionPoint)
+    {
+        // TODO Implement incrementation of a dexel based on the line-detector intersection point
     }
     
 }

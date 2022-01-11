@@ -16,6 +16,11 @@ namespace geometry
     class Phantom;
 }
 
+namespace detector
+{
+    class Detector;
+}
+
 namespace photon
 {
     class Photon
@@ -24,7 +29,7 @@ namespace photon
         static int ID;
         static constexpr double STARTING_PHOTON_ENERGY = 1.40e-1;
     public:
-        Photon(geometry::Phantom& bodyPhantom);
+        Photon(geometry::Phantom& bodyPhantom, detector::Detector& detector);
         void Start();
         void Join();
         int GetId() const;
@@ -34,9 +39,11 @@ namespace photon
     private:
         void photonProcedure();
         void initDirectionVector();
+        double calculateTravelDistance(bool& hasExperiencedInteraction);
     private:
         int id;
         geometry::Phantom& bodyPhantom;
+        detector::Detector& detector;
         thread *photonThread;
         geometry::Vector3D positionVector;
         geometry::Vector3D directionVector;

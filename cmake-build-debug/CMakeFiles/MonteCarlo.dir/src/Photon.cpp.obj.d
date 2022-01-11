@@ -168,3 +168,4 @@ c:/users/dusan/desktop/projects/montecarlo/inc/MiTableProvider.h
 C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/PhotonGenerator.h
 C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/GeometryUtils.h
 C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/Phantom.h
+C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/Detector.h

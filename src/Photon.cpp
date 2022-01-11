@@ -9,6 +9,7 @@
 #include "PhotonGenerator.h"
 #include "GeometryUtils.h"
 #include "Phantom.h"
+#include "Detector.h"
 
 namespace photon
 {
@@ -16,8 +17,9 @@ namespace photon
     
     log4cplus::Logger Photon::logger = log4cplus::Logger::getInstance("Photon");
     
-    Photon::Photon(geometry::Phantom& bodyPhantom) :
+    Photon::Photon(geometry::Phantom& bodyPhantom, detector::Detector& detector) :
             bodyPhantom(bodyPhantom),
+            detector(detector),
             photonThread(nullptr),
             directionVector(0,0,0),
             energy(STARTING_PHOTON_ENERGY),
@@ -72,38 +74,57 @@ namespace photon
         bool running = true;
         while (running)
         {
-            double s = 0;
-            double tau = -log(1 - random()) * 100;
-            std::vector<double> miFactors;
-            std::vector<double> mis;
-            std::vector<geometry::GeometryUtils::IntersectionPoint> intersectionPoints;
+            bool hasExperiencedInteraction = false;
+            double travelDistance = calculateTravelDistance(hasExperiencedInteraction);
             
-            bodyPhantom.GetIntersectionPoints(positionVector, directionVector, currentMatter, intersectionPoints);
-            for (int i = 0; i < intersectionPoints.size() - 1; i++)
+            if (hasExperiencedInteraction)
             {
-                if (intersectionPoints[i].matterFrom == MiTableProvider::VACUM)
-                {
-                    s += geometry::GeometryUtils::Distance(positionVector, intersectionPoints[i].point);
-                }
-
-                double s_i = geometry::GeometryUtils::Distance(intersectionPoints[i].point, intersectionPoints[i+1].point);
-                double mi = MiTableProvider::GetMi(energy, intersectionPoints[i].matterTo, MiTableProvider::MiTableColumnIndex::TOTAL_WITH_COHERENT_INDEX);
-
-                mis.push_back(mi);
-                miFactors.push_back(s_i * mi);
-
-                if (vector_sum(miFactors) >= tau)
-                {
-                    std::vector<double> miFactorsPrim(miFactors.size() - 1);
-                    copy(miFactors.begin(), miFactors.end() - 1, miFactorsPrim.begin());
-
-                    double sumMiFactorsPrim = vector_sum(miFactorsPrim);
-                    s += (tau - sumMiFactorsPrim) / mis[mis.size() - 1];
-
-                    running = false;
-                }
+                // TODO Implement which type of interaction has happend and logic behind every interaction
+            }
+            else
+            {
+                detector.IncrementDexelIfShot(positionVector, directionVector);
+                running = false;
             }
         }
+    }
+    
+    double Photon::calculateTravelDistance(bool& hasExperiencedInteraction)
+    {
+        hasExperiencedInteraction = false;
+        double travelDistance = 0;
+        double tau = -log(1 - random()) * 100;
+        std::vector<double> td_mi_Factors;
+        std::vector<double> mis;
+        std::vector<geometry::GeometryUtils::IntersectionPoint> intersectionPoints;
+    
+        bodyPhantom.GetIntersectionPoints(positionVector, directionVector, currentMatter, intersectionPoints);
+        for (int i = 0; i < intersectionPoints.size() - 1; i++)
+        {
+            if (intersectionPoints[i].matterFrom == MiTableProvider::VACUM)
+            {
+                travelDistance += geometry::GeometryUtils::Distance(positionVector, intersectionPoints[i].point);
+            }
+        
+            double travelDistance_i = geometry::GeometryUtils::Distance(intersectionPoints[i].point, intersectionPoints[i+1].point);
+            double mi_i = MiTableProvider::GetMi(energy, intersectionPoints[i].matterTo, MiTableProvider::MiTableColumnIndex::TOTAL_WITH_COHERENT_INDEX);
+        
+            mis.push_back(mi_i);
+            td_mi_Factors.push_back(travelDistance_i * mi_i);
+        
+            if (vector_sum(td_mi_Factors) >= tau)
+            {
+                std::vector<double> td_mi_FactorsPrim(td_mi_Factors.size() - 1);
+                copy(td_mi_Factors.begin(), td_mi_Factors.end() - 1, td_mi_FactorsPrim.begin());
+            
+                double sum_td_mi_FactorsPrim = vector_sum(td_mi_FactorsPrim);
+                travelDistance += (tau - sum_td_mi_FactorsPrim) / mis[mis.size() - 1];
+            
+                hasExperiencedInteraction = true;
+                break;
+            }
+        }
+        return travelDistance;
     }
     
     void Photon::Start()
@@ -131,4 +152,5 @@ namespace photon
     {
         this->currentMatter = currentMatter;
     }
+    
 }

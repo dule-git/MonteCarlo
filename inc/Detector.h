@@ -16,6 +16,9 @@ namespace detector
         geometry::Vector3D GetPositionVector();
         geometry::Vector3D GetPerpendicularVector();
         bool Contains(geometry::Vector3D& point) const;
+        void IncrementDexelIfShot(geometry::Vector3D photonPositionVector, geometry::Vector3D photonDirectionVector);
+    private:
+        void incrementDexel(geometry::Vector3D intersectionPoint);
     private:
         geometry::Vector3D positionVector;
         geometry::Vector3D perpendicularVector;

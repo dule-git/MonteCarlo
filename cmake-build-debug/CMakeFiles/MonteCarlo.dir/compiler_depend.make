@@ -4,6 +4,171 @@
 CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: ..\src\Detector.cpp
 CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: ..\inc\Detector.h
 CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: ..\inc\Vector3D.h
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: ..\inc\GeometryUtils.h
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: ..\inc\MiTableProvider.h
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: ..\inc\stdinc.h
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\iostream"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\istream"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\ostream"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\ios"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\climits"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\yvals.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\yvals_core.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xkeycheck.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\crtdefs.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\vcruntime.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\sal.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\concurrencysal.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\vadefs.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\crtdbg.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\vcruntime_new_debug.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\vcruntime_new.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\use_ansi.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\limits.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\cmath"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\cstdlib"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\stdlib.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_malloc.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_search.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\stddef.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wstdlib.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\math.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_math.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xtgmath.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xtr1common"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\cstdio"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\stdio.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wstdio.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_stdio_config.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\streambuf"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xiosbase"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\cstring"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\string.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_memory.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_memcpy_s.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\errno.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\vcruntime_string.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wstring.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\stdexcept"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\exception"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\type_traits"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstddef"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\cstddef"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\initializer_list"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\malloc.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\vcruntime_exception.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\eh.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_terminate.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xmemory0"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\cstdint"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\stdint.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\limits"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\ymath.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\cfloat"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\float.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\cwchar"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\wchar.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wconio.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wctype.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wdirect.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wio.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_share.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wprocess.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wtime.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\sys\stat.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\sys\types.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\new"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xutility"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\utility"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\iosfwd"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xatomic0.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\intrin0.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\typeinfo"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\vcruntime_typeinfo.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocinfo"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocinfo.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\ctype.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\locale.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\memory"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xmemory"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xfacet"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\system_error"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\cerrno"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xcall_once.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xerrc.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\share.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\chrono"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\ratio"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\time.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\thr\xtimec.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\thr\xthrcommon.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\thread"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\functional"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\tuple"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\thr\xthread"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\thr\xtime"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\thr\xthreads.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\queue"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\algorithm"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\deque"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\vector"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\string"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring_insert.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\mutex"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\random"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\logger.h
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\config.hxx
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\config\win32.h
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\helpers\thread-config.h
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\loglevel.h
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\tstring.h
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\tchar.h
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\spi\appenderattachable.h
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\appender.h
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\layout.h
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\streams.h
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\helpers\timehelper.h
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\ctime"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\helpers\pointer.h
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\thread\syncprims.h
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\condition_variable"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\cassert"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\assert.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\atomic"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xatomic.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xxatomic"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xxatomic"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xxatomic"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xxatomic"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xxatomic"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xxatomic"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xxatomic"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xxatomic"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xxatomic"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xxatomic"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xxatomic"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xxatomic"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xxatomic"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xxatomic"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xxatomic"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xxatomic"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\spi\filter.h
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\helpers\lockfile.h
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\spi\loggerfactory.h
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\configurator.h
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\helpers\property.h
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\map"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xtree"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\loggingmacros.h
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\helpers\snprintf.h
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\cstdarg"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\stdarg.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\tracelogger.h
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\sstream"
 
 
 CMakeFiles\MonteCarlo.dir\src\Ellipsoid.cpp.obj: ..\src\Ellipsoid.cpp
@@ -856,6 +1021,7 @@ CMakeFiles\MonteCarlo.dir\src\Photon.cpp.obj: ..\inc\MiTableProvider.h
 CMakeFiles\MonteCarlo.dir\src\Photon.cpp.obj: ..\inc\PhotonGenerator.h
 CMakeFiles\MonteCarlo.dir\src\Photon.cpp.obj: ..\inc\GeometryUtils.h
 CMakeFiles\MonteCarlo.dir\src\Photon.cpp.obj: ..\inc\Phantom.h
+CMakeFiles\MonteCarlo.dir\src\Photon.cpp.obj: ..\inc\Detector.h
 
 
 CMakeFiles\MonteCarlo.dir\src\PhotonGenerator.cpp.obj: ..\src\PhotonGenerator.cpp
@@ -1215,17 +1381,15 @@ CMakeFiles\MonteCarlo.dir\src\main.cpp.obj: ..\inc\GeometryUtils.h
 
 ..\src\Detector.cpp:
 
+"C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wstring.h":
+
+"C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\string.h":
+
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\istream":
+
 "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_math.h":
 
 ..\inc\Detector.h:
-
-"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xatomic0.h":
-
-"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\streambuf":
-
-"C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_stdio_config.h":
-
-..\src\Ellipsoid.cpp:
 
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\initializer_list":
 
@@ -1235,27 +1399,19 @@ CMakeFiles\MonteCarlo.dir\src\main.cpp.obj: ..\inc\GeometryUtils.h
 
 ..\inc\Vector3D.h:
 
-"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\iostream":
-
-"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\cstring":
-
-..\inc\Ellipsoid.h:
-
 ..\inc\stdinc.h:
 
-C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\thread\syncprims.h:
+..\inc\GeometryUtils.h:
 
-"C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt.h":
+"C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wstdlib.h":
 
-"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\utility":
+"C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\stddef.h":
 
-..\inc\Phantom.h:
+"C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\stdlib.h":
 
-"C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wstring.h":
+..\inc\MiTableProvider.h:
 
-"C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\string.h":
-
-"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\istream":
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\iostream":
 
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xtgmath.h":
 
@@ -1303,6 +1459,10 @@ C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\thread\syncprims.h
 
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\vadefs.h":
 
+C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\thread\syncprims.h:
+
+"C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt.h":
+
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstddef":
 
 "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\crtdbg.h":
@@ -1329,12 +1489,6 @@ C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\helpers\snprintf.h
 
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\cmath":
 
-"C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wstdlib.h":
-
-"C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\stddef.h":
-
-"C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\stdlib.h":
-
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\stdint.h":
 
 "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\math.h":
@@ -1347,9 +1501,17 @@ C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\helpers\snprintf.h
 
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\cstdio":
 
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xatomic0.h":
+
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\streambuf":
+
+"C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_stdio_config.h":
+
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xiosbase":
 
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocale":
+
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\cstring":
 
 "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_memory.h":
 
@@ -1398,6 +1560,10 @@ C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\initializer.h:
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\new":
 
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xutility":
+
+..\inc\Phantom.h:
+
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\utility":
 
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\iosfwd":
 
@@ -1529,9 +1695,9 @@ C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\tracelogger.h:
 
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\sstream":
 
-..\inc\MiTableProvider.h:
+..\src\Ellipsoid.cpp:
 
-..\inc\GeometryUtils.h:
+..\inc\Ellipsoid.h:
 
 ..\src\GeometryUtils.cpp:
 
