@@ -93,7 +93,7 @@ namespace photon
     {
         hasExperiencedInteraction = false;
         double travelDistance = 0;
-        double tau = -log(1 - random()) * 100;
+        double tau = -log(1 - random()) * 100000;
         std::vector<double> td_mi_Factors;
         std::vector<double> mis;
         std::vector<geometry::GeometryUtils::IntersectionPoint> intersectionPoints;

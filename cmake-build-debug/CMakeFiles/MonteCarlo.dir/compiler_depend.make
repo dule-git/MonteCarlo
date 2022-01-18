@@ -4,15 +4,7 @@
 CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: ..\src\Detector.cpp
 CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: ..\inc\Detector.h
 CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: ..\inc\Vector3D.h
-CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: ..\inc\GeometryUtils.h
-CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: ..\inc\MiTableProvider.h
-CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: ..\inc\stdinc.h
-CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\iostream"
-CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\istream"
-CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\ostream"
-CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\ios"
-CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum"
-CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\climits"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\cstdint"
 CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\yvals.h"
 CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\yvals_core.h"
 CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xkeycheck.h"
@@ -26,6 +18,16 @@ CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows 
 CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\vcruntime_new_debug.h"
 CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\vcruntime_new.h"
 CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\use_ansi.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\stdint.h"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: ..\inc\GeometryUtils.h
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: ..\inc\MiTableProvider.h
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: ..\inc\stdinc.h
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\iostream"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\istream"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\ostream"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\ios"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum"
+CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\climits"
 CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\limits.h"
 CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\cmath"
 CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\cstdlib"
@@ -64,8 +66,6 @@ CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsof
 CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_terminate.h"
 CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring"
 CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xmemory0"
-CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\cstdint"
-CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\stdint.h"
 CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\limits"
 CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\ymath.h"
 CMakeFiles\MonteCarlo.dir\src\Detector.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\cfloat"
@@ -1381,57 +1381,23 @@ CMakeFiles\MonteCarlo.dir\src\main.cpp.obj: ..\inc\GeometryUtils.h
 
 ..\src\Detector.cpp:
 
-"C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wstring.h":
-
-"C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\string.h":
-
-"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\istream":
-
 "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_math.h":
 
 ..\inc\Detector.h:
-
-"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\initializer_list":
-
-"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\cstddef":
-
-"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\yvals.h":
-
-..\inc\Vector3D.h:
-
-..\inc\stdinc.h:
-
-..\inc\GeometryUtils.h:
-
-"C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wstdlib.h":
-
-"C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\stddef.h":
-
-"C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\stdlib.h":
-
-..\inc\MiTableProvider.h:
-
-"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\iostream":
-
-"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xtgmath.h":
-
-"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\ostream":
-
-"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\cstdlib":
-
-"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\ios":
-
-"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum":
-
-"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\vcruntime_string.h":
-
-"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\climits":
 
 "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_search.h":
 
 "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_malloc.h":
 
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\yvals_core.h":
+
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\initializer_list":
+
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\cstddef":
+
+..\inc\Vector3D.h:
+
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\yvals.h":
 
 "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wstdio.h":
 
@@ -1440,6 +1406,8 @@ CMakeFiles\MonteCarlo.dir\src\main.cpp.obj: ..\inc\GeometryUtils.h
 "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\stdio.h":
 
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xkeycheck.h":
+
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\cstdint":
 
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\vcruntime_exception.h":
 
@@ -1477,6 +1445,44 @@ C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\thread\syncprims.h
 
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\use_ansi.h":
 
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\stdint.h":
+
+"C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\math.h":
+
+..\inc\GeometryUtils.h:
+
+"C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wstdlib.h":
+
+"C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\stddef.h":
+
+"C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\stdlib.h":
+
+..\inc\MiTableProvider.h:
+
+..\inc\stdinc.h:
+
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\iostream":
+
+"C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wstring.h":
+
+"C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\string.h":
+
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\istream":
+
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xtgmath.h":
+
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\ostream":
+
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\cstdlib":
+
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\ios":
+
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xlocnum":
+
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\vcruntime_string.h":
+
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\climits":
+
 "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\errno.h":
 
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\map":
@@ -1488,10 +1494,6 @@ C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\helpers\snprintf.h
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\ratio":
 
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\cmath":
-
-"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\stdint.h":
-
-"C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\math.h":
 
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xtr1common":
 
@@ -1524,8 +1526,6 @@ C:\dev\vcpkg\packages\log4cplus_x86-windows\include\log4cplus\helpers\snprintf.h
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xstring":
 
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xmemory0":
-
-"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\cstdint":
 
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\limits":
 

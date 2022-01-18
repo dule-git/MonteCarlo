@@ -35,11 +35,13 @@ int main(int argc, char** argv)
         MiTableProvider::MiTableFileName("mi_attenuation_coeff_H2O.txt", MiTableProvider::MatterType::H20)
     });
     Detector detector;
-    Ellipsoid ellipsoid("EllipsoidBody",MiTableProvider::MatterType::H20,300,300,60);
+    Ellipsoid ellipsoidBody("EllipsoidBody",MiTableProvider::MatterType::H20,300,300,60);
+    Ellipsoid ellipsoidHeart("EllipsoidHeart", MiTableProvider::MatterType::H20, 200, 200, 20);
+    ellipsoidBody.AddChild(&ellipsoidHeart);
     
     PhotonGenerator::TOTAL_NUM_OF_PHOTONS = arguments.TOTAL_NUM_OF_PHOTONS;
     PhotonGenerator::NUM_OF_PARALLEL_PHOTONS = arguments.NUM_OF_PARALLEL_PHOTONS;
-    PhotonGenerator photonGenerator(detector, ellipsoid);
+    PhotonGenerator photonGenerator(detector, ellipsoidBody);
     
     photonGenerator.Join();
     

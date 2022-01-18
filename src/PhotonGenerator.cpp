@@ -51,8 +51,10 @@ namespace photon
             
             photons.push(generateNewPhoton());
         }
-        
+    
         waitForAllPhotonsToFinish();
+        
+        LOG4CPLUS_INFO(logger, "Exited procedure.");
     }
     
     Photon *PhotonGenerator::generateNewPhoton()

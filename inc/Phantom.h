@@ -17,6 +17,7 @@ namespace geometry
     public:
         Phantom(std::string id, MiTableProvider::MatterType matterType);
         void GetIntersectionPoints(Vector3D positionVector, Vector3D directionVector, MiTableProvider::MatterType matterFrom, std::vector<GeometryUtils::IntersectionPoint>& intersectionPoints);
+        void AddChild(Phantom* child);
         virtual bool Contains(Vector3D point) = 0;
         virtual std::vector<Vector3D> IntersectsLine(Vector3D positionVector, Vector3D directionVector) = 0;
     protected:

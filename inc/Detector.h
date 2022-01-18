@@ -6,6 +6,7 @@
 #define MONTECARLO_DETECTOR_H
 
 #include "Vector3D.h"
+#include <cstdint>
 
 namespace detector
 {
@@ -20,12 +21,13 @@ namespace detector
     private:
         void incrementDexel(geometry::Vector3D intersectionPoint);
     private:
+        static constexpr double DETECTOR_WIDTH = 380.0;
+        static constexpr double DETECTOR_HEIGHT = 380.0;
+    private:
         geometry::Vector3D positionVector;
         geometry::Vector3D perpendicularVector;
         geometry::Vector3D upperLeft, upperRight, lowerLeft, lowerRight;
-    private:
-        static constexpr double WIDTH = 380.0;
-        static constexpr double HEIGHT = 380.0;
+        uint16_t dexels[(int)DETECTOR_HEIGHT][(int)DETECTOR_WIDTH];
     };
 }
 

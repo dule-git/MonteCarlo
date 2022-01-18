@@ -10,11 +10,15 @@ namespace detector
     Detector::Detector():
         positionVector(0.0, 0.0, 70.0),
         perpendicularVector(0.0, 0.0, 1.0),
-        upperLeft(positionVector.x + WIDTH/2.0, positionVector.y + HEIGHT/2, positionVector.z),
-        upperRight(positionVector.x - WIDTH/2.0, positionVector.y + HEIGHT/2, positionVector.z),
-        lowerLeft(positionVector.x + WIDTH/2.0, positionVector.y - HEIGHT/2, positionVector.z),
-        lowerRight(positionVector.x - WIDTH/2.0, positionVector.y - HEIGHT/2, positionVector.z)
-    { }
+        upperLeft(positionVector.x + DETECTOR_WIDTH/2.0, positionVector.y + DETECTOR_HEIGHT/2, positionVector.z),
+        upperRight(positionVector.x - DETECTOR_WIDTH/2.0, positionVector.y + DETECTOR_HEIGHT/2, positionVector.z),
+        lowerLeft(positionVector.x + DETECTOR_WIDTH/2.0, positionVector.y - DETECTOR_HEIGHT/2, positionVector.z),
+        lowerRight(positionVector.x - DETECTOR_WIDTH/2.0, positionVector.y - DETECTOR_HEIGHT/2, positionVector.z)
+    {
+        for (int i = 0; i < DETECTOR_HEIGHT; i++)
+            for (int j = 0; j < DETECTOR_WIDTH; j++)
+                dexels[i][j] = 0;
+    }
     
     geometry::Vector3D Detector::GetPerpendicularVector()
     {
@@ -48,6 +52,10 @@ namespace detector
     void Detector::incrementDexel(geometry::Vector3D intersectionPoint)
     {
         // TODO Implement incrementation of a dexel based on the line-detector intersection point
+        double x = intersectionPoint.x + DETECTOR_WIDTH / 2;
+        double y = intersectionPoint.y + DETECTOR_HEIGHT / 2;
+        
+        dexels[(int)y][(int)x] += 1;
     }
     
 }

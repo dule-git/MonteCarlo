@@ -34,4 +34,9 @@ namespace geometry
             child->GetIntersectionPoints(positionVector, directionVector, matterType, intersectionPoints);
         }
     }
+    
+    void Phantom::AddChild(Phantom* child)
+    {
+        children.push_back(child);
+    }
 }
