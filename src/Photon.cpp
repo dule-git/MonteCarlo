@@ -10,6 +10,7 @@
 #include "GeometryUtils.h"
 #include "Phantom.h"
 #include "Detector.h"
+#include "CoherentRace.h"
 
 namespace photon
 {
@@ -79,10 +80,17 @@ namespace photon
             
             if (hasExperiencedInteraction)
             {
-                // TODO Implement which type of interaction has happend and logic behind every interaction
+                LOG4CPLUS_DEBUG(logger, "Photon[" << id << "] experienced interaction at depth: " << travelDistance);
+                positionVector = positionVector + directionVector * travelDistance;
+                
+                Interaction* interaction = Interaction::GetNewInteractionRandom();
+                interaction->Interact(*this);
+                delete interaction;
+                break;
             }
             else
             {
+                LOG4CPLUS_DEBUG(logger, "Photon [" << id << "] didn't experience an interaction. Checking to see if it shot the detector...");
                 detector.IncrementDexelIfShot(positionVector, directionVector);
                 running = false;
             }
@@ -91,14 +99,23 @@ namespace photon
     
     double Photon::calculateTravelDistance(bool& hasExperiencedInteraction)
     {
+        LOG4CPLUS_DEBUG(logger, "Calculating distance photon traveled before having an interaction...");
         hasExperiencedInteraction = false;
         double travelDistance = 0;
-        double tau = -log(1 - random()) * 100000;
+        double tau = getTau();
         std::vector<double> td_mi_Factors;
         std::vector<double> mis;
         std::vector<geometry::GeometryUtils::IntersectionPoint> intersectionPoints;
     
         bodyPhantom.GetIntersectionPoints(positionVector, directionVector, currentMatter, intersectionPoints);
+        intersectionPoints = geometry::GeometryUtils::SortIntersectionPointsByDistanceFromGenerator(positionVector, intersectionPoints);
+        
+        stringstream message;
+        message << "Travel path of the photon[" << id << "] " << "intersects the phantom in " << intersectionPoints.size() << " points: ";
+        for (auto intersectionPoint : intersectionPoints)
+            message << intersectionPoint.point << ";";
+        LOG4CPLUS_DEBUG(logger, message.str());
+        
         for (int i = 0; i < intersectionPoints.size() - 1; i++)
         {
             if (intersectionPoints[i].matterFrom == MiTableProvider::VACUM)
@@ -121,6 +138,7 @@ namespace photon
                 travelDistance += (tau - sum_td_mi_FactorsPrim) / mis[mis.size() - 1];
             
                 hasExperiencedInteraction = true;
+                currentMatter = intersectionPoints[i].matterTo;
                 break;
             }
         }
@@ -151,6 +169,23 @@ namespace photon
     void Photon::SetCurrentMatter(MiTableProvider::MatterType currentMatter)
     {
         this->currentMatter = currentMatter;
+    }
+    
+    double Photon::GetEnergy() const
+    {
+        return energy;
+    }
+    
+    MiTableProvider::MatterType Photon::GetCurrentMatter() const
+    {
+        return currentMatter;
+    }
+    
+    double Photon::getTau() const
+    {
+        double tau = -log(1 - random()) * 28.57;
+        LOG4CPLUS_DEBUG(logger, "Photon with id: " << id << " calculated tau: " << tau);
+        return tau;
     }
     
 }

@@ -27,7 +27,9 @@ namespace photon
     {
     public:
         static int ID;
-        static constexpr double STARTING_PHOTON_ENERGY = 1.40e-1;
+        static constexpr double STARTING_PHOTON_ENERGY = 1.40e-1; // [KeV]
+        static constexpr double ELECTRON_MASS = 9.1093837015e-31;   // [kg]
+        static constexpr double SPEED_OF_LIGHT = 299792458;       // [m/s]
     public:
         Photon(geometry::Phantom& bodyPhantom, detector::Detector& detector);
         void Start();
@@ -35,11 +37,14 @@ namespace photon
         int GetId() const;
         geometry::Vector3D GetPositionVector();
         geometry::Vector3D GetDirectionVector();
+        double GetEnergy() const;
         void SetCurrentMatter(MiTableProvider::MatterType currentMatter);
+        MiTableProvider::MatterType GetCurrentMatter() const;
     private:
         void photonProcedure();
         void initDirectionVector();
         double calculateTravelDistance(bool& hasExperiencedInteraction);
+        double getTau() const;
     private:
         int id;
         geometry::Phantom& bodyPhantom;

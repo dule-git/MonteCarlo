@@ -7,6 +7,9 @@
 
 namespace detector
 {
+    
+    log4cplus::Logger Detector::logger = log4cplus::Logger::getInstance("Detector");
+    
     Detector::Detector():
         positionVector(0.0, 0.0, 70.0),
         perpendicularVector(0.0, 0.0, 1.0),
@@ -18,6 +21,8 @@ namespace detector
         for (int i = 0; i < DETECTOR_HEIGHT; i++)
             for (int j = 0; j < DETECTOR_WIDTH; j++)
                 dexels[i][j] = 0;
+    
+        LOG4CPLUS_INFO(logger, "Made a detector with width: " << DETECTOR_WIDTH << " and height: " << DETECTOR_HEIGHT);
     }
     
     geometry::Vector3D Detector::GetPerpendicularVector()
@@ -43,10 +48,19 @@ namespace detector
     void Detector::IncrementDexelIfShot(geometry::Vector3D photonPositionVector, geometry::Vector3D photonDirectionVector)
     {
         geometry::Vector3D intersectionPoint = geometry::GeometryUtils::LineThroughPlaneIntersectPoint(photonDirectionVector, photonPositionVector, perpendicularVector, positionVector);
+        
+        std::stringstream message;
+        message << "Point of intersection between photon path and detector plane is: ip" << intersectionPoint << ". ";
         if (Contains(intersectionPoint))
         {
             incrementDexel(intersectionPoint);
+            message << "ip belongs to the detector, dexel incremented.";
         }
+        else
+        {
+            message << "ip doesn't belong to the detector, photon missed.";
+        }
+        LOG4CPLUS_DEBUG(logger, message.str());
     }
     
     void Detector::incrementDexel(geometry::Vector3D intersectionPoint)

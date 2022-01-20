@@ -1,6 +1,12 @@
 C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/Detector.h
 c:/users/dusan/desktop/projects/montecarlo/inc/Vector3D.h
-C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/cstdint
+c:/users/dusan/desktop/projects/montecarlo/inc/stdinc.h
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/iostream
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/istream
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/ostream
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/ios
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/xlocnum
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/climits
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/yvals.h
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/yvals_core.h
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/xkeycheck.h
@@ -14,16 +20,6 @@ C:/Program Files (x86)/Windows Kits/10/include/10.0.17763.0/ucrt/crtdbg.h
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/vcruntime_new_debug.h
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/vcruntime_new.h
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/use_ansi.h
-C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/stdint.h
-C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/GeometryUtils.h
-c:/users/dusan/desktop/projects/montecarlo/inc/MiTableProvider.h
-c:/users/dusan/desktop/projects/montecarlo/inc/stdinc.h
-C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/iostream
-C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/istream
-C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/ostream
-C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/ios
-C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/xlocnum
-C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/climits
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/limits.h
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/cmath
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/cstdlib
@@ -62,6 +58,8 @@ C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.
 C:/Program Files (x86)/Windows Kits/10/include/10.0.17763.0/ucrt/corecrt_terminate.h
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/xstring
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/xmemory0
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/cstdint
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/stdint.h
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/limits
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/ymath.h
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/cfloat
@@ -112,6 +110,8 @@ C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/algorithm
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/deque
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/vector
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/map
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/xtree
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/string
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/xstring_insert.h
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/mutex
@@ -157,11 +157,11 @@ C:/dev/vcpkg/packages/log4cplus_x86-windows/include/log4cplus/helpers/lockfile.h
 C:/dev/vcpkg/packages/log4cplus_x86-windows/include/log4cplus/spi/loggerfactory.h
 C:/dev/vcpkg/packages/log4cplus_x86-windows/include/log4cplus/configurator.h
 C:/dev/vcpkg/packages/log4cplus_x86-windows/include/log4cplus/helpers/property.h
-C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/map
-C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/xtree
 C:/dev/vcpkg/packages/log4cplus_x86-windows/include/log4cplus/loggingmacros.h
 C:/dev/vcpkg/packages/log4cplus_x86-windows/include/log4cplus/helpers/snprintf.h
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/cstdarg
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/stdarg.h
 C:/dev/vcpkg/packages/log4cplus_x86-windows/include/log4cplus/tracelogger.h
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/sstream
+C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/GeometryUtils.h
+c:/users/dusan/desktop/projects/montecarlo/inc/MiTableProvider.h

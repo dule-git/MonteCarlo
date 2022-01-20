@@ -44,4 +44,32 @@ Vector3D GeometryUtils::LineThroughPlaneIntersectPoint(Vector3D &rayVector, Vect
         return sqrt(pow(dx, 2) + pow(dy, 2) + pow(dz, 2));
     }
     
+    std::vector<GeometryUtils::IntersectionPoint> GeometryUtils::SortIntersectionPointsByDistanceFromGenerator(Vector3D positionVector, std::vector<IntersectionPoint> intersectionPoints)
+    {
+        std::vector<IntersectionPoint> sortedIntersectionPoints;
+        
+        while (!intersectionPoints.empty())
+        {
+            double minDistance = ULONG_MAX;
+            IntersectionPoint minIntersectionPoint;
+            for (IntersectionPoint intersectionPoint: intersectionPoints)
+            {
+                double distance = Distance(positionVector, intersectionPoint.point);
+                if (minDistance >= distance)
+                {
+                    minDistance = distance;
+                    minIntersectionPoint = intersectionPoint;
+                }
+            }
+            sortedIntersectionPoints.push_back(minIntersectionPoint);
+            remove_if(intersectionPoints.begin(), intersectionPoints.end(), [minIntersectionPoint](IntersectionPoint ip)
+            {
+                return ip.point.x == minIntersectionPoint.point.x && ip.point.y == minIntersectionPoint.point.y && ip.point.z == minIntersectionPoint.point.z;
+            });
+            intersectionPoints.resize(intersectionPoints.size() - 1);
+        }
+        
+        return sortedIntersectionPoints;
+    }
+    
 }

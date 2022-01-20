@@ -33,6 +33,15 @@ namespace photon
         LOG4CPLUS_INFO(logger, "Signaled to exit.");
     }
     
+    void printProgress(int i)
+    {
+        if (i % 100 == 0)
+        {
+            system("cls");
+            cout << "Progress: " << ((float)i / (float)PhotonGenerator::TOTAL_NUM_OF_PHOTONS) * 100.0 << " %";
+        }
+    }
+    
     void PhotonGenerator::photonGeneratorProcedure()
     {
         LOG4CPLUS_INFO(logger, "Procedure entered.");
@@ -43,6 +52,7 @@ namespace photon
         
         for (uint32_t i = 0; i < PhotonGenerator::TOTAL_NUM_OF_PHOTONS && running; i++)
         {
+//            printProgress(i);
             Photon *photon = photons.front();
             photons.pop();
             
@@ -77,7 +87,7 @@ namespace photon
             vector<geometry::Vector3D> intersectionPoints = phantom.IntersectsLine(photonPositionVector, photonDirectionVector);
             if (!intersectionPoints.empty())
             {
-                LOG4CPLUS_DEBUG(logger, "Created photon with id: " << photon->GetId() << " will hit the phantom.");
+                LOG4CPLUS_DEBUG(logger, "Created photon with id: " << photon->GetId() << " will hit the phantom in points: ip1" << intersectionPoints[0] << " and ip2" << intersectionPoints[1]);
                 break;
             }
             else

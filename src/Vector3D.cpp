@@ -34,4 +34,10 @@ namespace geometry
         return Vector3D{x + rhs.x, y + rhs.y, z + rhs.z};
     }
     
+    std::ostream& operator<<(std::ostream& os, const Vector3D& vector)
+    {
+        os << "(" << vector.x << ", " << vector.y << ", " << vector.z << ")";
+        return os;
+    }
+    
 }

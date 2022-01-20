@@ -20,10 +20,12 @@ public:
         MiTableProvider::MatterType matterFrom;
         MiTableProvider::MatterType matterTo;
         IntersectionPoint(Vector3D point, MiTableProvider::MatterType matterFrom, MiTableProvider::MatterType matterTo): point(point), matterFrom(matterFrom), matterTo(matterTo){}
+        IntersectionPoint() : point(-1, -1, -1) {};
     } IntersectionPoint;
 public:
     static Vector3D LineThroughPlaneIntersectPoint(Vector3D& rayVector, Vector3D& rayPoint, Vector3D& planeNormal, Vector3D& planePoint);
     static std::vector<Vector3D> GetPointsInPathOfSemiStraightLine(Vector3D positionVector, Vector3D directionVector, const std::vector<Vector3D>& intersectionPoints);
+    static std::vector<IntersectionPoint> SortIntersectionPointsByDistanceFromGenerator(Vector3D positionVector, std::vector<IntersectionPoint> intersectionPoints);
     static double Distance(Vector3D pointFrom, Vector3D pointTo);
 };
 

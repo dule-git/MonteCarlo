@@ -7,6 +7,7 @@
 #include "Detector.h"
 #include "Ellipsoid.h"
 #include "MiTableProvider.h"
+#include "DistributionFunctionTableProvider.h"
 
 using namespace std;
 using namespace photon;
@@ -34,6 +35,8 @@ int main(int argc, char** argv)
     MiTableProvider::LoadMiTables(vector<MiTableProvider::MiTableFileName>{
         MiTableProvider::MiTableFileName("mi_attenuation_coeff_H2O.txt", MiTableProvider::MatterType::H20)
     });
+    DistributionFunctionTableProvider::InitTables();
+    
     Detector detector;
     Ellipsoid ellipsoidBody("EllipsoidBody",MiTableProvider::MatterType::H20,300,300,60);
     Ellipsoid ellipsoidHeart("EllipsoidHeart", MiTableProvider::MatterType::H20, 200, 200, 20);

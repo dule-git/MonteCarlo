@@ -117,6 +117,8 @@ C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/algorithm
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/deque
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/vector
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/map
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/xtree
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/string
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/xstring_insert.h
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/mutex
@@ -158,8 +160,6 @@ C:/dev/vcpkg/packages/log4cplus_x86-windows/include/log4cplus/helpers/lockfile.h
 C:/dev/vcpkg/packages/log4cplus_x86-windows/include/log4cplus/spi/loggerfactory.h
 C:/dev/vcpkg/packages/log4cplus_x86-windows/include/log4cplus/configurator.h
 C:/dev/vcpkg/packages/log4cplus_x86-windows/include/log4cplus/helpers/property.h
-C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/map
-C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/xtree
 C:/dev/vcpkg/packages/log4cplus_x86-windows/include/log4cplus/loggingmacros.h
 C:/dev/vcpkg/packages/log4cplus_x86-windows/include/log4cplus/helpers/snprintf.h
 C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/include/cstdarg
@@ -172,3 +172,4 @@ C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/Ellipsoid.h
 c:/users/dusan/desktop/projects/montecarlo/inc/Phantom.h
 c:/users/dusan/desktop/projects/montecarlo/inc/MiTableProvider.h
 c:/users/dusan/desktop/projects/montecarlo/inc/GeometryUtils.h
+C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/DistributionFunctionTableProvider.h

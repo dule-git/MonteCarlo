@@ -5,6 +5,8 @@
 #ifndef MONTECARLO_VECTOR3D_H
 #define MONTECARLO_VECTOR3D_H
 
+#include "stdinc.h"
+
 namespace geometry
 {
     
@@ -15,9 +17,12 @@ public:
     Vector3D operator-(const Vector3D& rhs) const;
     Vector3D operator+(const Vector3D& rhs) const;
     Vector3D operator*(double rhs) const;
+    
+    friend std::ostream& operator<<(std::ostream& os, const Vector3D& vector);
 public:
     double x, y, z;
 };
+
     
 }
 

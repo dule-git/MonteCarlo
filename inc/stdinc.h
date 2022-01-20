@@ -10,6 +10,7 @@
 #include <thread>
 #include <queue>
 #include <vector>
+#include <map>
 #include <string>
 #include <mutex>
 #include <random>

@@ -28,6 +28,8 @@ namespace detector
         geometry::Vector3D perpendicularVector;
         geometry::Vector3D upperLeft, upperRight, lowerLeft, lowerRight;
         uint16_t dexels[(int)DETECTOR_HEIGHT][(int)DETECTOR_WIDTH];
+    private:
+        static log4cplus::Logger logger;
     };
 }
 

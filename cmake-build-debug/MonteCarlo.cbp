@@ -96,13 +96,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/CoherentRace.h">
+			<Option target="MonteCarlo"/>
+		</Unit>
 		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/Detector.h">
+			<Option target="MonteCarlo"/>
+		</Unit>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/DistributionFunctionTableProvider.h">
 			<Option target="MonteCarlo"/>
 		</Unit>
 		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/Ellipsoid.h">
 			<Option target="MonteCarlo"/>
 		</Unit>
 		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/GeometryUtils.h">
+			<Option target="MonteCarlo"/>
+		</Unit>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/Interaction.h">
 			<Option target="MonteCarlo"/>
 		</Unit>
 		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/MiTableProvider.h">
@@ -126,13 +135,22 @@
 		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/inc/stdinc.h">
 			<Option target="MonteCarlo"/>
 		</Unit>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/src/CoherentRace.cpp">
+			<Option target="MonteCarlo"/>
+		</Unit>
 		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/src/Detector.cpp">
+			<Option target="MonteCarlo"/>
+		</Unit>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/src/DistributionFunctionTableProvider.cpp">
 			<Option target="MonteCarlo"/>
 		</Unit>
 		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/src/Ellipsoid.cpp">
 			<Option target="MonteCarlo"/>
 		</Unit>
 		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/src/GeometryUtils.cpp">
+			<Option target="MonteCarlo"/>
+		</Unit>
+		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/src/Interaction.cpp">
 			<Option target="MonteCarlo"/>
 		</Unit>
 		<Unit filename="C:/Users/dusan/Desktop/Projects/MonteCarlo/src/MiTableProvider.cpp">
