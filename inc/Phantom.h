@@ -15,7 +15,7 @@ namespace geometry
     class Phantom
     {
     public:
-        Phantom(std::string id, MiTableProvider::MatterType matterType);
+        Phantom(std::string id, MiTableProvider::MatterType matterType, Vector3D positionVector);
         void GetIntersectionPoints(Vector3D positionVector, Vector3D directionVector, MiTableProvider::MatterType matterFrom, std::vector<GeometryUtils::IntersectionPoint>& intersectionPoints);
         void AddChild(Phantom* child);
         virtual bool Contains(Vector3D point) = 0;
@@ -25,6 +25,7 @@ namespace geometry
         std::vector<std::vector<double>> miTable;
         std::string id;
         MiTableProvider::MatterType matterType;
+        Vector3D positionVector;
     protected:
         log4cplus::Logger logger;
     };

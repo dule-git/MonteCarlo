@@ -14,7 +14,7 @@ namespace geometry
 class Ellipsoid : public Phantom
 {
 public:
-    Ellipsoid(std::string id, MiTableProvider::MatterType matterType, double a, double b, double c);
+    Ellipsoid(std::string id, MiTableProvider::MatterType matterType, Vector3D positionVector, double a, double b, double c);
     bool Contains(Vector3D point) override;
     std::vector<Vector3D> IntersectsLine(Vector3D positionVector, Vector3D directionVector) override;
 public:

@@ -7,10 +7,11 @@
 
 namespace geometry
 {
-    Phantom::Phantom(std::string id, MiTableProvider::MatterType matterType):
+    Phantom::Phantom(std::string id, MiTableProvider::MatterType matterType, Vector3D positionVector):
         id(id),
         children(),
         logger(log4cplus::Logger::getInstance(id)),
+        positionVector(positionVector),
         matterType(matterType)
     {
     }

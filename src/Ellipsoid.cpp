@@ -5,8 +5,8 @@
 #include "Ellipsoid.h"
 namespace geometry
 {
-    Ellipsoid::Ellipsoid(std::string id, MiTableProvider::MatterType matterType, double a, double b, double c) :
-        Phantom(id, matterType),
+    Ellipsoid::Ellipsoid(std::string id, MiTableProvider::MatterType matterType, Vector3D positionVector, double a, double b, double c) :
+        Phantom(id, matterType, positionVector),
         a(a),
         b(b),
         c(c)
@@ -21,12 +21,13 @@ namespace geometry
     
     std::vector<Vector3D> Ellipsoid::IntersectsLine(Vector3D positionVector, Vector3D directionVector)
     {
-        double x0 = positionVector.x, y0 = positionVector.y, z0 = positionVector.z;
+        double xl = positionVector.x, yl = positionVector.y, zl = positionVector.z;
+        double xp = this->positionVector.x, yp = this->positionVector.y, zp = this->positionVector.z;
         double dx = directionVector.x, dy = directionVector.y, dz = directionVector.z;
     
         double k = pow(dx * b * c, 2) + pow(dy * a * c, 2) + pow(dz * a * b, 2);
-        double l = 2 * x0 * dx * pow(b * c, 2) + 2 * y0 * dy * pow(a * c, 2) + 2 * z0 * dz * pow(a * b, 2);
-        double m = pow(x0 * b * c, 2) + pow(y0 * a * c, 2) + pow(z0 * a * b, 2) - pow(a * b * c, 2);
+        double l = 2 * (xl-xp) * dx * pow(b * c, 2) + 2 * (yl-yp) * dy * pow(a * c, 2) + 2 * (zl-zp) * dz * pow(a * b, 2);
+        double m = pow(b * c, 2) * (pow(xl, 2) - 2*xl*xp + pow(xp, 2)) + pow(a * c, 2) * (pow(yl, 2) - 2*yl*yp + pow(yp, 2)) + pow(a * b, 2)*(pow(zl, 2) - 2*zl*zp + pow(zp, 2)) - pow(a * b * c, 2);
     
         double t1 = (-l - sqrt(pow(l, 2) - 4 * k * m)) / (2 * k);
         double t2 = (-l + sqrt(pow(l, 2) - 4 * k * m)) / (2 * k);
